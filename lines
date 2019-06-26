@@ -1,0 +1,6 @@
+#!/bin/bash
+start=$1
+end=$2
+filename=$3
+head -$((start+end)) $filename | tail -$end
+

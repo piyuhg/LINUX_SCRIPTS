@@ -1,0 +1,5 @@
+#!/bin/bash
+read -p "enter the name : " Name
+read -p "enter the roll number : " Roll_Number
+read -p "enter the makrs : " Mark
+echo "$Name $Roll_Number $Mark" >> Marks.txt

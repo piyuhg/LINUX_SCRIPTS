@@ -1,0 +1,3 @@
+Sandeep  director   50000 3000 1000
+Ajeet    manager    35000 3000 1500
+Gill     manager    30000 3000 1500

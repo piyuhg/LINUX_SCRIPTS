@@ -1,0 +1,7 @@
+#!/bin/bash -x
+for command in date pwd df
+do
+	echo
+	echo "The output of $command command is > " $($command)
+	echo
+done

@@ -1,0 +1,14 @@
+#!/bin/bash
+func()
+{
+	echo "$0"; echo "$1"; echo "$2";
+	echo "The internal function was called with arguments : $@"
+	local x=2
+	echo "The value of function inside x is $x"
+}
+echo "The script was called with arguments : $@"
+echo "$0"; echo "$1"; echo "$2";
+x=1
+echo "before func call x was $x"
+func 1 2
+echo "After func call x is $x"

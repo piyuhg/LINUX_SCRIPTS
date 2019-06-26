@@ -1,0 +1,17 @@
+#!/bin/bash
+echo "Even numbers"
+for((i=1;i<=100;i++))
+do
+	if test $((i%2)) -eq 0
+	then
+		echo $i
+	fi
+done
+echo "Odd numbers"
+for((i=1;i<=100;i++))
+do
+	if test $((i%2)) -ne 0
+	then
+		echo $i
+	fi
+done  

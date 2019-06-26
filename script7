@@ -1,0 +1,11 @@
+#!/bin/bash
+read -p "Enter the number : " num
+mun=0
+rem=0
+for((i=num;i>0;i=i/10))
+do
+	rem=$((i%10))
+	mun=$((mun*10 + rem))
+done
+echo $mun	
+

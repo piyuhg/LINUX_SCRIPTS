@@ -1,0 +1,8 @@
+#!/bin/bash
+user=$1
+db="/etc/passwd"
+[ $# -eq 0 ] && { echo "Usage: $0 username"; exit 1; }
+grep "^$user" $db > /dev/null
+retval=$?
+[ $retval -eq 0 ] && echo "$user found" || echo "$user not found"
+ 

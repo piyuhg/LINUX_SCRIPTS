@@ -1,0 +1,12 @@
+#!/bin/bash -x
+read -p "Enter the String: " orig
+rev=""
+#initialize a blank variable
+len=${#orig}
+#used for calculating the length of the string
+for((i=$((len-1));i>=0;i--))
+do
+	rev="$rev${orig:$i:1}"
+done
+echo "string : $orig reversed : $rev"
+

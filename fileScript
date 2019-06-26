@@ -1,0 +1,5 @@
+#!/bin/bash -x
+# -v option is for verbose
+echo "midline"
+# this is my first script
+echo "my first script"

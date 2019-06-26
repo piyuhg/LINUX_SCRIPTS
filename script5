@@ -1,0 +1,8 @@
+#!/bin/bash
+read -p "Enter the number : " num
+if test $num -ge 1 -a $num -le 100
+then
+	echo "Yes"
+else
+	echo "No"
+fi

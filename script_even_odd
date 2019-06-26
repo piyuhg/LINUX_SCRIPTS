@@ -1,0 +1,13 @@
+#!/bin/bash
+start=$1
+end=$2
+waste=$3
+[ $# -lt 2 ] && { echo "Usage: $0 start end"; exit 1; }
+[ $start -gt $end ] && { echo "start should be less than end"; exit 2; }
+echo "Even numbers between $start and $end are : "
+for((i=$start;i<=$end;i++))
+do
+	[ $((i%2)) -eq 0 ] && echo -n "$i "
+done
+echo
+

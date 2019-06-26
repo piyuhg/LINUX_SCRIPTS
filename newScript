@@ -1,0 +1,4 @@
+#!/bin/bash
+echo "enter the name roll_number class"
+read -r name roll_number class
+echo "$name $roll_number $class" >> file5.txt 

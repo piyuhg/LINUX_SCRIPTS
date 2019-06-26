@@ -1,0 +1,6 @@
+#!/bin/bash -x
+echo "list files/directories in ~directory:"
+for f in $(ls ~/*)
+do
+	echo $f
+done

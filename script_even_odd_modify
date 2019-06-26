@@ -1,0 +1,31 @@
+#!/bin/bash
+start=$1
+end=$2
+mode=$3
+count=0
+[ $# -lt 2 ] && { echo "Usage: $0 start end"; exit 1; }
+[ $start -gt $end ] && { echo "start should be less than end"; exit 2; }
+echo "Even numbers between $start and $end are : "
+case $3 in
+	1)	for (( i=$start;i<=$end;i++ ))
+		do
+			if [[ $count -lt 10 ]]
+			then
+				[ $((i%2)) -eq 0 ] && { echo -n "$i " ; count=$count+1 ; }
+			else
+				count=0
+				echo 
+			fi			
+		done
+		echo;;
+	2)	for (( i=$start;i<=$end;i++ ))
+		do
+			[ $((i%2)) -eq 0 ] && echo -n "$i "
+		done
+		echo;;
+	*)	for (( i=$start;i<=$end;i++ ))
+		do
+			[ $((i%2)) -eq 0 ] && echo "$i "
+		done
+		;;			
+esac

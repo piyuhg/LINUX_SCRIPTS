@@ -1,0 +1,13 @@
+#!/bin/bash
+domain="$1"
+out=""
+function to_lower()
+{
+	local str="$@"
+	local output=""
+	output=$( tr '[A-Z]' '[a-z]' <<< "${str}")
+	echo $output
+}
+to_lower "This Is a TEST"
+out=$(to_lower ${domain})
+echo "Domain name : $out"

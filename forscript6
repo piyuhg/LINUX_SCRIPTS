@@ -1,0 +1,6 @@
+#!/bin/bash -x
+files="/etc/passwd /etc/group /etc/shadow /tmp/myfile"
+for f in $files
+do
+	[ -f $f ] && echo "$f file found" || echo "$f file missing"
+done

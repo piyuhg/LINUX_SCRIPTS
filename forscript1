@@ -1,0 +1,5 @@
+#!/bin/bash -x
+for car in maruti honda toyota ford
+do
+	echo "car make (list): $car "
+done

@@ -1,0 +1,3968 @@
+    1  q
+    2  quit
+    3  ls
+    4  man ls
+    5  ls -a
+    6  ls -l
+    7  ls -lh
+    8  ls --help
+    9  whatis ls
+   10  whatis cp
+   11  whereis ls
+   12  whereis -m ls
+   13  whereis -ls
+   14  man man
+   15  man passwd
+   16  whereis passwd
+   17  whereis -m passwd
+   18  man 5 passwd
+   19  man woman
+   20  man copy
+   21  --help
+   22  ls --help
+   23  cp --help
+   24  clear
+   25  xterm
+   26  bash
+   27  csh
+   28  tclsh
+   29  python
+   30  python 3
+   31  man man
+   32  man exit
+   33  man sudo
+   34  man man
+   35  pwd
+   36  ls --t
+   37  ls -t
+   38  ls -r
+   39  ls -R
+   40  ls -S
+   41  man ls
+   42  ls -R/etc
+   43  ls -R\etc
+   44  ls -R /etc
+   45  cd desktop
+   46  cd Desktop
+   47  ls -a
+   48  cd .
+   49  cd ..
+   50  ls
+   51  cd ~
+   52  cd /
+   53  cd /home/piyuhg
+   54  cd -
+   55  ls
+   56  q
+   57  quit
+   58  exit
+   59  touch piyush_file.txt
+   60  ls
+   61  touch piyush_file1.txt file2.txt file3.txt
+   62  ls
+   63  touch hello\ world.txt
+   64  ls
+   65  touch man
+   66  ls
+   67  man touch
+   68  clear
+   69  man touch
+   70  touch -t 202001011200 file5.txt
+   71  ls -l
+   72  touch -t 200001011200 file6.txt
+   73  ls -l
+   74  ln file2.txt file3.txt
+   75  ln -f file2.txt file3.txt
+   76  ln -s file4.txt new_file.txt
+   77  ls
+   78  ls -l
+   79  cp file2.txt file3.txt
+   80  cp file2.txt file6.txt
+   81  ls -l
+   82  cp -i file2.txt file5.txt
+   83  mv file2.txt ~/desktop/file2.txt
+   84  mv file2.txt ~/Desktop/file2.txt
+   85  ls
+   86  mv file3.txt new_file.txt
+   87  ls -l
+   88  rm file5
+   89  rm file5.txt
+   90  rm -i file6.txt
+   91  ls
+   92  rm -i hello\ world.txt new_file.txt 
+   93  ls
+   94  mkdir new_dir
+   95  ls
+   96  mkdir -p s3/s4/s5
+   97  cd s3
+   98  ls
+   99  cd s4/
+  100  ls
+  101  cd..
+  102  cd ..
+  103  ls -R s3
+  104  rmdir new_dir
+  105  rmdir s3
+  106  rm -rf s3
+  107  ls
+  108  who
+  109  whoami
+  110  who am i
+  111  ls -l /etc
+  112  ls -l /home/Desktop/file2.txt
+  113  ls -l /homel/Desktop/file2.txt
+  114  ls -l /dev
+  115  file /etc/passwd
+  116  file /dev/sda
+  117  file -s/dev/sda
+  118  file -s /dev/sda
+  119  sudo file -s /dev/sda
+  120  cd ~
+  121  cd /bin
+  122  cd ~
+  123  cd ./../../bin/
+  124  cd ~
+  125  cd ./../home/sandeep
+  126  ls home
+  127  cd /
+  128  ls home
+  129  cd ~
+  130  pwd
+  131  cd /bin
+  132  cd ./../etc
+  133  ld -l /./../bin
+  134  ls -l /./../bin
+  135  cd ~
+  136  ls
+  137  cd /bin
+  138  mkdir /home/new_dir
+  139  mkdir ~/new_dir
+  140  mkdir /home/piyuhg/new_dir2
+  141  rm ~/new_dir
+  142  rmdir ~/new_dir
+  143  ls ~/
+  144  man pushd
+  145  help pushd
+  146  --help pushd
+  147  pushd --help
+  148  cd ~
+  149  pushd --help
+  150  man pushd
+  151  help pushd
+  152  help popd
+  153  pushd /etc
+  154  pwd
+  155  pushd /bin
+  156  pushd ~/Desktop
+  157  popd
+  158  ls -l
+  159  chmod 527 new_file.txt
+  160  ls -l
+  161  chmod 000 new_file.txt
+  162  ls -l
+  163  chmod 777 new_file.txt
+  164  ls -l
+  165  chmod u-r g-w o-x new_file.txt
+  166  chmod u-r new_file.txt
+  167  chmod g-w new_file.txt
+  168  chmod o-x new_file.txt
+  169  ls -l
+  170  chmod o+x new_file.txt
+  171  ls -l
+  172  chmod +w new_file.txt
+  173  ls -l
+  174  chmod 000 new_file.txt
+  175  ls -l
+  176  chmod +w new_file.txt 
+  177  ls -l
+  178  chmod +t new_file.txt
+  179  ls -l
+  180  help umask
+  181  touch file2.txt
+  182  ls -l
+  183  umask 0022
+  184  touch file3.txt
+  185  ls -l
+  186  umask 0777
+  187  touch file4.txt
+  188  ls -l
+  189  cd D
+  190  cd Des
+  191  cd Desktop
+  192  cd ~
+  193  cd Des
+  194  cd Dow
+  195  cd Download
+  196  cd Downloads
+  197  ls Dow
+  198  cd /
+  199  cd `
+  200  q
+  201  exit
+  202  mkdir piyushg
+  203  cd piyushg
+  204  cat abc.txt
+  205  cat <abc.txt
+  206  cat >abc.txt
+  207  exit
+  208  cat >abc.txt
+  209  exit
+  210  cd Downloads/
+  211  cd .
+  212  cd ..
+  213  cd --
+  214  ls
+  215  rm file2.txt
+  216  rm file3.txt
+  217  rm file4.txt
+  218  ls 
+  219  rm piyush_file1.txt 
+  220  rm piyush_file.txt 
+  221  ls
+  222  gedit new_file.txt 
+  223  chmod 777 new_file.txt 
+  224  gedit new_file.txt 
+  225  nano new_file.txt 
+  226  vi new_file.txt
+  227  gedit /etc/passwd
+  228  head -5 /etc/passwd
+  229  head -15 /etc/passwd
+  230  head /etc/passwd
+  231  head -c4 /etc/passwd
+  232  tail /etc.passwd
+  233  tail /etc/passwd
+  234  tail -1 /etc.passwd
+  235  tail -1 /etc/passwd
+  236  cat /etc/passwd
+  237  cat < /etc/passwd
+  238  cat > abc.txt
+  239  cat abc.txt
+  240  ls
+  241  ls -l
+  242  umask 0022
+  243  cat abc.txt
+  244  cat > abc.txt
+  245  cat abc.txt
+  246  cat >> abc.txt
+  247  cat abc.txt
+  248  cat abc.txt /etc/passwd abc.txt
+  249  tac abc.txt
+  250  more /etc/passwd
+  251  less /etc/passwd
+  252  cat /bin/ls
+  253  str
+  254  strings /bin/ls
+  255  history
+  256  which ls
+  257  whereis ls
+  258  whereis -m
+  259  whereis -m ls
+  260  script
+  261  ls
+  262  geddit typescript 
+  263  gedit typescript 
+  264  strings typescript
+  265  gedit typescript 
+  266  cat typescript
+  267  script -a newScript
+  268  cat newScript
+  269  alias piyush = 'ls -alh'
+  270  alias piyush='ls -alh'
+  271  piyush
+  272  un alias piyush
+  273  unalias piyush
+  274  piyush
+  275  alias ls='ls -l'
+  276  ls
+  277  .ls
+  278  \ls
+  279  unalias ls
+  280  ls
+  281  less /etc/passwd
+  282  vi new_file.txt
+  283  ls -l*.txt
+  284  ls -l *.txt
+  285  ls -l *.*
+  286  ls -l *.* /etc
+  287  ls -l /etc/*.*
+  288  ls -l; touch myfile; ls
+  289  rm myfile
+  290  ls
+  291  &&
+  292  head -12 /etc/passwd
+  293  tail -1 /etc/passwd
+  294  cat >me.txt
+  295  tac me.txt
+  296  more /var/log/messages
+  297  strings /usr/bin/passwd
+  298  ls -s /etc
+  299  history
+  300  touch m1.txt m2.txt m3.txt
+  301  ls -l *.txt
+  302  ls *.txt
+  303  ls -S /etc
+  304  man ls
+  305  sudo shutdown now
+  306  ls
+  307  man
+  308  \msn
+  309  \man
+  310  rm man
+  311  ls
+  312  rm m1.txt m2.txt m3.txt me.txt 
+  313  ls
+  314  newScript
+  315  cat newScript
+  316  history
+  317  man sudo
+  318  python
+  319  csh
+  320  history
+  321  man ls
+  322  exit
+  323  head -20 /etc/passwd | tail -5 /etc/passwd
+  324  cat /etc/passwd
+  325  ls
+  326  cat new_file.txt.save
+  327  cat new_file.txt
+  328  rm new_file.txt
+  329  rm new_file.txt.save 
+  330  ls
+  331  cat abc.txt
+  332  cat >>abc.text
+  333  cat anc.txt
+  334  cat abc.txt
+  335  cat <<abc.txt
+  336  hello world
+  337  this is 2nd line
+  338  this is 3rd line
+  339  cat abc.txt
+  340  cat > abc.txt
+  341  cat abc.txt
+  342  cat >> abc.txt
+  343  cat < abc.txt
+  344  ls
+  345  cat abc.text
+  346  rm abc.text 
+  347  ls
+  348  cat abc.txt
+  349  cat >> abc.text
+  350  cat abc.txt
+  351  cat abc.txt abc.text
+  352  cat abc.txt
+  353  cat abc.text << abc.text
+  354  cat << abc.txt abc.text
+  355  rm abc.text abc.txt
+  356  ls
+  357  cat newScript
+  358  rm newScript
+  359  ls
+  360  ls /new_dir2
+  361  ls new_dir2/
+  362  cd new_dir2
+  363  ls
+  364  ls -l
+  365  cd ~
+  366  touch abc.txt
+  367  cat < abc.txt
+  368  cat > abc.txt
+  369  echo "this is done using echo"
+  370  echo 1234
+  371  cat abc.txt
+  372  cat >> abc.txt
+  373  cat abc.txt
+  374  echo "this is file creation using echo" > echo.txt
+  375  cat echo.txt
+  376  echo "this is again doing" > echo.txt
+  377  cat echo.txt
+  378  set -o noclobber
+  379  echo "this is file creation using echo" > echo.txt
+  380  echo "this is file creation using echo" >> echo.txt
+  381  cat echo.txt
+  382  set +o noclobber
+  383  echo "this is file creation using echo" > echo.txt
+  384  cat echo.tct
+  385  cat echo.txt
+  386  head -14 /etc/passwd | tail -8
+  387  ls -S | head -1
+  388  ls -lS | head -1
+  389  ls -l
+  390  ls -S
+  391  ls -lS | head -2 | tail -1
+  392  ls 1> ls.txt 2> ~/lserror.txt
+  393  cat ls.txt
+  394  cat lserror.txt
+  395  ls lq123 2> ~/lserror.txt
+  396  cat lserror.txt
+  397  ls
+  398  rmdir new_dir2/
+  399  ls
+  400  cat abc.txt
+  401  cat >> abc.txt
+  402  cat l?.txt
+  403  cat ls?rror.txt
+  404  cat ls?????.txt
+  405  ls
+  406  ls Do???????
+  407  ls Do?*
+  408  ls D?*
+  409  ls /Desktop
+  410  ls Desktop
+  411  ls Desktop/file.txt
+  412  ls Desktop/file2.txt
+  413  ls *?s
+  414  echo [a-z]
+  415  ls [a-z]
+  416  echo \[a-z]
+  417  ls abc[a-z][A-Z][0-9]*
+  418  ls abc.txt[a-z][A-Z][0-9]*
+  419  ls [a-z]*.txt
+  420  ls [A-Z]
+  421  ls [A-Z]*.*
+  422  ls [A-Z]*
+  423  ls
+  424  grep /etc/passwd
+  425  grep piyuhg /etc/passwd
+  426  grep root /etc/passwd
+  427  cat >> file_grep.txt
+  428  cat file_grep.txt
+  429  grep once file_grep.txt
+  430  grep ONCE file_grep.txt
+  431  grep -i once file_grep.txt
+  432  ls
+  433  grep -v once file_grep.txt
+  434  grep -v line\ once file_grep.txt
+  435  grep -n once file_grep.txt
+  436  grep -vn line\ once file_grep.txt
+  437  grep -c once file_grep.txt
+  438  grep -ci once file_grep.txt
+  439  grep -A3 once file_grep.txt
+  440  grep -A2 once file_grep.txt
+  441  grep -B2 once file_grep.txt
+  442  grep -C1 once file_grep.txt
+  443  grep -C4 once file_grep.txt
+  444  cat /etc/passwd | -i piyuhg
+  445  cat /etc/passwd | grep -i piyuhg
+  446  pgrep bash
+  447  pgrep gnome
+  448  echo "one    two    three"
+  449  echo "one    two    three" > new_file.txt
+  450  cat new_file.txt 
+  451  cat new_file.txt | tr -s ' '
+  452  cat new_file.txt | tr -s ''
+  453  cat new_file.txt | tr -s ' '
+  454  cat new_file.txt | tr -s ' ' > new_file.txt
+  455  cat new_file.txt 
+  456  cat new_file.txt
+  457  echo "one    two    three" > new_file.txt
+  458  cat new_file.txt
+  459  cat new_file.txt | tr -s ' ' | tee > new_file.txt
+  460  cat new_file.txt 
+  461  echo "one    two    three" > new_file.txt
+  462  cat new_file.txt | tr -s ' ' | tee new_file.txt
+  463  cat new_file.txt 
+  464  echo "one    two    three" > new_file.txt
+  465  cat new_file.txt | tr -s ' ' |cat  >> new_file.txt
+  466  cat new_file.txt 
+  467  echo "one    two    three" > new_file.txt
+  468  cat new_file.txt | tr -s ' ' |cat > new_file.txt
+  469  cat new_file.txt 
+  470  echo "one    two    three" > new_file.txt
+  471  cat new_file.txt | tr -s ' ' |cat >> new_file.txt
+  472  cat new_file.txt 
+  473  echo "one    two    three" > new_file.txt
+  474  cat new_file.txt | tr -d 'e'
+  475  cat new_file.txt | tr -d ' '
+  476  cat new_file.txt | tr ' ' '\n'
+  477  cat new_file.txt | tr -s ' '| tr ' ' '\n'
+  478  cat new_file.txt | tr 'o' 'a'
+  479  cat new_file.txt | tr 'a-z' 'n-za-m'
+  480  cat new_file.txt | tr 'a-z' 'n-za-m' | tee new_file2.txt | tr 'a-z' 'n-za-m'
+  481  cat new_file2.txt 
+  482  cat new_file2.txt | tr 'a-z' 'n-za-m'
+  483  cat >> class.txt
+  484  cat class.txt
+  485  cat >> class.txt
+  486  cat class.txt | cut -d' ' -f1
+  487  cat class.txt | cut -d' ' -f2
+  488  cat class.txt | cut -d' ' -f3
+  489  cat class.txt | tr -s ' ' | cut -d' ' -f2
+  490  cat class.txt | tr -s ' ' | cut -d' ' -f3
+  491  cat class.txt | tr -s ' ' | cut -d' ' -f1 | 
+  492  cat class.txt | tr -s ' ' | cut -d' ' -f1 | tee name.txt
+  493  cat name.txt 
+  494  cut -c2-7 /etc/passwd | tail -4
+  495  head -1 /etc/passwd
+  496  cut /etc/passwd d':' -f1 
+  497  cut /etc/passwd -d: -f1 
+  498  cut /etc/passwd -d':' -f1 
+  499  cat /etc/passwd | wc -c
+  500  cat /etc/passwd | wc -w
+  501  cat /etc/passwd | wc -l
+  502  cat /etc/passwd | wc -cwl
+  503  cat /etc/passwd | wc -wcl
+  504  cat class.txt | tr -s ' ' | cut -d' ' -f1 | tee name.txt |  echo
+  505  cat name.txt
+  506  cat class.txt
+  507  cat class.txt | tr -s ' ' | cut -d' ' -f1 | tee name.txt
+  508  cat class.txt | tr -s ' ' | tee name.txt
+  509  cat name.txt 
+  510  sort -n -3 name.txt
+  511  sort -n-3 name.txt
+  512  sort -n -k3 name.txt
+  513  sort -k1 name.txt
+  514  sort -r -k1 name.txt
+  515  sort -k2 name.txt
+  516  cat name.txt | uniq
+  517  cat name.txt |sort -k1| uniq
+  518  cat name.txt |sort -k3| uniq
+  519  cat name.txt |sort -k3| uniq -c
+  520  cp name.txt namecopy.txt
+  521  ls
+  522  cat namecopy.txt
+  523  cat >>  namecopy.txt
+  524  comm name.txt namecopy.txt
+  525  cat << name.txt
+  526  cat >> name.txt
+  527  comm name.txt namecopy.txt
+  528  comm -12 name.txt namecopy.txt
+  529  comm -1 name.txt namecopy.txt
+  530  comm -23 name.txt namecopy.txt
+  531  diff name.txt namecopy.txt 
+  532  cat name.txt 
+  533  cat namecopy.txt 
+  534  cat namecopy.txt | wc -l
+  535  cat > new3.txt
+  536  cat new3.txt 
+  537  cat namecopy.txt | wc -w
+  538  cat namecopy.txt |head -1| wc -w
+  539  od -t o1 new.txt
+  540  od -t o1 new3.txt
+  541  od -t x1 new3.txt
+  542  od -t b new3.txt
+  543  man od
+  544  od  -b new3.txt
+  545  find -name "*.txt"
+  546  find . -name "*.txt"
+  547  mkdir abc1.txt
+  548  ls
+  549  find . -name "*.txt"
+  550  find . -type f -name "*.txt"
+  551  find . -type d -name "*.txt"
+  552  touch permi.txt
+  553  chmod 777 permi.txt 
+  554  ls -l
+  555  find . -perm 0777 "*.txt"
+  556  find . -newer abc.txt
+  557  find . -perm 0777 
+  558  find. -name "*.txt" -exec cp{} /home/piyuhg/backup/ \;
+  559  find . -name "*.txt" -exec cp{} /home/piyuhg/backup/ \;
+  560  find . -name "*.txt" -exec cp{} /home/piyuhg/backup/ \;ls
+  561  ls
+  562  mkdir backup
+  563  find . -name "*.txt" -exec cp{} /home/piyuhg/backup/ \;ls
+  564  find . -name "*.txt" -exec cp{} /home/piyuhg/backup/ \;
+  565  cd backup
+  566  ls
+  567  find ~ -name "*.txt" -exec cp {} /home/piyuhg/backup/ \;
+  568  ls
+  569  cd ~
+  570  cd backup
+  571  find . -name "*.txt" -ok rm {} \;
+  572  y
+  573  ls
+  574  cd ~
+  575  finf / -name "*.txt" > name4.txt
+  576  find / -name "*.txt" > name4.txt
+  577  cat name4.txt 
+  578  cat name4.txt | wc -l
+  579  find. -type f -empty
+  580  find . -empty
+  581  find / -user root -name tecmint.txt
+  582  find . -mtime 2
+  583  find . -mtime -2
+  584  find . -atime -2
+  585  find . -mtime 1
+  586  find . -mtime +1 -3
+  587  find . -mtime +1 -mtime -3
+  588  find . -mtime +3 -mtime -1
+  589  find . -mtime +1 -mtime -1
+  590  find . -mtime +1 -mtime -2
+  591  find . -mtime +1 -mtime -3
+  592  find . -mmin -60
+  593  find . -amin -60
+  594  find / -size 50M
+  595  find . cmin -60
+  596  find . mmin -60
+  597  find . -cmin -60
+  598  find / -size 50M
+  599  find . -size 50b
+  600  find . -size 50
+  601  quit
+  602  exit
+  603  sudo shutdown on
+  604  sudo shutdown now
+  605  exit
+  606  echo hello there
+  607  clc
+  608  clear all
+  609  history
+  610  ls
+  611  cat abc.txt
+  612  head -8 abc.text | tail -4 
+  613  head -8 abc.txt | tail -4 
+  614  cat name.txt
+  615  rm name.txt 
+  616  la
+  617  rm namecopy.txt 
+  618  ls
+  619  rmdir abc1.txt/
+  620  ls
+  621  cd piyushg/
+  622  ls
+  623  cat abc.txt 
+  624  cd ..
+  625  rmdir piyushg/
+  626  rmdir -f piyushg/
+  627  rmdir -r piyushg/
+  628  rm -rf piyushg/
+  629  rm backup/
+  630  rmdir backup/
+  631  mkdir backup
+  632  rmdir backup
+  633  ls
+  634  cat class.txt 
+  635  rm class.txt 
+  636  cat > class.txt
+  637  /sbin/ifconfig
+  638  grep "inet" /sbin/ifconfig
+  639  history
+  640  grep inet /sbin/ifconfig
+  641  /sbin/ifconfig | grep inet
+  642  /sbin/ifconfig | grep netmask
+  643  /sbin/ifconfig | grep netmask | cut -d f1
+  644  /sbin/ifconfig | grep netmask | cut -d' ' f1
+  645  /sbin/ifconfig | grep netmask | cut -d' ' -f1
+  646  /sbin/ifconfig | grep netmask | ts -s ' '
+  647  /sbin/ifconfig | grep netmask | tr -s ' '
+  648  /sbin/ifconfig | grep netmask | tr -s ' ' | cut -d ' ' f1
+  649  /sbin/ifconfig | grep netmask | tr -s ' ' | cut -d ' ' -f1
+  650  /sbin/ifconfig | grep netmask | tr -s' '
+  651  /sbin/ifconfig | grep netmask | tr -s ' '
+  652  /sbin/ifconfig | grep netmask | tr -s ' '| cut -d' ' -f2
+  653  /sbin/ifconfig | grep netmask | tr -s ' '| cut -d' ' -f3
+  654  /sbin/ifconfig | grep netmask
+  655  echo "The sun is shining in the sky" > text.txt
+  656  cat text.txt | tr 'A-Z' 'a-z\n'
+  657  cat text.txt | tr 'A-Z' 'a-z\n'|sort
+  658  cat text.txt | tr 'A-Z' 'a-z\n'| sort | uniq > result | comm -1 result dict.text
+  659  cat > dict.text
+  660  cat text.txt | tr 'A-Z' 'a-z\n'| sort | uniq > result | comm -1 result dict.text
+  661  cat text.txt | tr 'A-Z' 'a-z\n'| sort | uniq > result | comm  result dict.text
+  662  cat text.txt | tr 'A-Z' 'a-z\n'| sort | uniq > result | comm result dict.text
+  663  cat text.txt | tr 'A-Z' 'a-z\n'| sort | uniq > result | diff result dict.text
+  664  cat result
+  665  cat text.txt | tr 'A-Z ' 'a-z\n'| sort | uniq > result | diff result dict.text
+  666  cat 
+  667  cat text.txt | tr 'A-Z ' 'a-z\n'| sort 
+  668  cat text.txt | tr 'A-Z ' 'a-z\n'| sort | uniq
+  669  cat dict.text 
+  670  cat text.txt | tr 'A-Z ' 'a-z\n'| sort | uniq > result | diff result dict.text
+  671  cat text.txt | tr 'A-Z' 'a-z\n'| sort | uniq > result | comm result dict.text
+  672  find . -tpe f -newerat "20120130 23:59:59"
+  673  find . -type f -newerat "20120130 23:59:59"
+  674  touch -t 201201302359 marker_date
+  675  find . -type f -newer marker_date
+  676  touch -t 201301310000 marker_start
+  677  touch -t 201301010000 marker_start
+  678  touch -t 201301310000 marker_end
+  679  find . -type f -name "*.txt" -newer marker_start ! -newer marker_end
+  680  ls -l marker_start
+  681  ls -l marker_end
+  682  find . -type f -name "*.txt" -newer marker_start ! -newer marker_end
+  683  touch -t 201901510000 marker_start
+  684  touch -t 201901050000 marker_start
+  685  touch -t 201901060000 marker_end
+  686  find . -type f -name "*.txt" -newer marker_start ! -newer marker_end
+  687  find . -name "*.txt" -exec cp {} ~/backup/ \;
+  688  cd backup
+  689  mkdir backup
+  690  find . -name "*.txt" -exec cp {} ~/backup/ \;
+  691  ls backup
+  692  cd backup
+  693  ls
+  694  cd ~
+  695  find . -name "*.txt" -exec mv {} {}f \;
+  696  ls
+  697  find . -name "*.txtf" -exec rm {} \;
+  698  cd backup
+  699  find . -name "*.txt" -exec cp {} ~/ \;
+  700  cd ~
+  701  ls
+  702  cd backup
+  703  ls
+  704  cd ~
+  705  ls
+  706  find / -name "*.txt" > file1
+  707  find / -name '*.txt' > file2
+  708  cat file1
+  709  cat file2
+  710  diff file1 file2
+  711  comm file1 file2
+  712  exit
+  713  echo name \n piyush
+  714  echo "name \n piyush"
+  715  echo -e "name \n piyush"
+  716  echo -e 'name \n piyush'
+  717  echo -e 'name \npiyush' > file.txt
+  718  sleep 5
+  719  sleep 5&
+  720  sleep 5 &
+  721  fg 8557
+  722  fg 1
+  723  fg 2
+  724  fg [1]
+  725  sleep 100&
+  726  fg 1
+  727  sleep 60&
+  728  jobs
+  729  sleep 100&
+  730  jobs
+  731  date
+  732  man date
+  733  date +%a
+  734  man date
+  735  date +'%A %d-%m-%Y'
+  736  date -d'1970-01-01 + 2000000000 seconds'
+  737  time
+  738  time date
+  739  time sleep 10
+  740  cal
+  741  cal, cal 10 1998
+  742  cal 10 1998
+  743  cal 01 10 1998
+  744  cal 10 1998
+  745  clear
+  746  ls
+  747  vi file.txt 
+  748  vi
+  749  ls
+  750  cat marker_
+  751  cat marker_date 
+  752  cat typescript 
+  753  clear
+  754  man
+  755  man help
+  756  xterm
+  757  whatis ls
+  758  whichis ls
+  759  whereis ls
+  760  where is ls
+  761  what is ls
+  762  whatis ls
+  763  whereis ls
+  764  man head
+  765  cd -
+  766  pwd
+  767  ls
+  768  cd Downloads/
+  769  cd -
+  770  cd ..
+  771  cd ~
+  772  claer
+  773  clear
+  774  sudo shutdown now
+  775  history
+  776  vi file_new.text
+  777  cp/usr/share/commom-licenses/BSD
+  778  cp/usr/share/common-licenses/BSD
+  779  cp /usr/share/common-licenses/BSD ~
+  780  vi BSD
+  781  vim
+  782  sudo apt install vim
+  783  vi BSD
+  784  fg 1
+  785  jobs
+  786  vi BSD
+  787  echo "hello"
+  788  echo 'hello;
+  789  echo 'hello'
+  790  echo hello
+  791  echo $a
+  792  quit
+  793  exit
+  794  echo $a
+  795  clear
+  796  echo $a
+  797  exit
+  798  echo $a
+  799  exit
+  800  echo $a
+  801  exit
+  802  echo $a
+  803  echo \"hello world"
+  804  "
+  805  echo \"hello worl\"
+  806  echo \"hello world\"
+  807  printenv
+  808  echo hello worldpiyush
+  809  echo hello world piyush
+  810  a = date
+  811  $a=date
+  812  a=date
+  813  $a
+  814  a
+  815  echo $a
+  816  echo a
+  817  echo $$a
+  818  c="date";echo $c
+  819  d = 'date':echo $d
+  820  d = 'date';echo $d
+  821  d='date';echo $d
+  822  d=`date;echo $d
+  823  a=`date`
+  824  echo $a
+  825  d=`date`;echo $d
+  826  echo ls
+  827  echo `ls`
+  828  echo $(ls)
+  829  echo `a`
+  830  unseta
+  831  unset a
+  832  $b
+  833  $c
+  834  unset b
+  835  unset c
+  836  unset d
+  837  set
+  838  env
+  839  exit
+  840  vim
+  841  ls
+  842  script newScript
+  843  ls
+  844  echo echo this is my first script > myscript
+  845  chmod +x myscript 
+  846  ./myscript 
+  847  cat myscript 
+  848  echo
+  849  echo -n
+  850  echo "hello\n"
+  851  echo -n "hello\n"
+  852  echo -e "hello\n"
+  853  echo -n "A line \na newline escaped character"
+  854  echo -n "A line \ta tab escaped character"
+  855  echo -e "A line \ta tab escaped character"
+  856  gedit fileScript
+  857  ./fileScript
+  858  chmod +x fileScript 
+  859  ./fileScript
+  860  gedit fileScript
+  861  ./fileScript
+  862  ls
+  863  cat newScript 
+  864  gedit fileScript
+  865  ./fileScript
+  866  gedit fileScript
+  867  ./fileScript
+  868  vi .bashrc
+  869  type cd
+  870  type cat
+  871  type ls
+  872  a=123
+  873  echo $a
+  874  export a
+  875  bash
+  876  exit
+  877  a="piyush"
+  878  export a
+  879  printenv
+  880  read me
+  881  echo $me
+  882  read -p "enter your name: " name
+  883  echo $name
+  884  read -p "enter your name: " name
+  885  echo $name
+  886  read -p "enter your name: " name
+  887  echo $name
+  888  read -t 10 -p "enter your name: " username
+  889  read -s -p "enter password: " mypasswd
+  890  echo $mypasswd 
+  891  data = "Piyush Gupta 9213456000 /home"
+  892  data="Piyush Gupta 9213456000 /home"
+  893  read -r firstname lastname number path <<< "data"
+  894  echo "your name is $firstname $lastname and number is $number with path $path"
+  895  read -r firstname lastname number path <<< "$data"
+  896  echo "your name is $firstname $lastname and number is $number with path $path"
+  897  set +o history
+  898  set -o
+  899  shopt -p
+  900  shopt -s cdspell
+  901  cd /etcc
+  902  cd ~
+  903  cd /etccc
+  904  cd ~/desktop
+  905  cd ~
+  906  shopt -u cdspell
+  907  gedit exampleScript
+  908  ./exampleScript
+  909  chmod +x exampleScript 
+  910  ./exampleScript
+  911  gedit exampleScript
+  912  ./exampleScript
+  913  gedit exampleScript
+  914  ./exampleScript
+  915  cat Marks.txt 
+  916  ./exampleScript
+  917  cat Marks.txt 
+  918  ./exampleScript
+  919  cat Marks.txt 
+  920  gedit exampleScript
+  921  exit
+  922  gedit newScript
+  923  ls
+  924  cat newScript
+  925  clear
+  926  rm newScript 
+  927  gedit newScript
+  928  ./newScript
+  929  chmod +x newScript 
+  930  ./newScript
+  931  gedit newScript
+  932  ./newScript
+  933  gedit newScript
+  934  cat file5.txt
+  935  rm file5.txt
+  936  ls
+  937  ./newScript
+  938  cat file5.txt
+  939  exit
+  940  vim
+  941  sudo apt install vim
+  942  sudo apt install gvim
+  943  vim file5.txt 
+  944  printenv
+  945  printenv | grep "HOST*"
+  946  env
+  947  HOSTNAME
+  948  echo $HOSTNAME
+  949  echo $USER
+  950  echo $UID
+  951  echo $SHELL
+  952  echo $HOME
+  953  echo $HOSTID
+  954  echo $WINDOW_ID
+  955  echo $WINDOWID
+  956  echo $PWD
+  957  echo $PATH
+  958  PATH=""
+  959  echo $PATH
+  960  LS
+  961  ls
+  962  cd
+  963  exit
+  964  ls
+  965  echo $PATH
+  966  PATH="$PATh:/home/piyuhg/"
+  967  echo $PATH
+  968  ls -l
+  969  myScript
+  970  fileScript
+  971  ls
+  972  exit
+  973  ls -s
+  974  ls -l
+  975  clear
+  976  PATH="$PATH:/home/piyuhg/"
+  977  ls
+  978  echo $PATH
+  979  file.txt
+  980  file5.txt
+  981  newScript 
+  982  cat file5.txt 
+  983  gedit file5.txt 
+  984  cat file5.txt 
+  985  gedit file5.txt 
+  986  cat file5.txt 
+  987  vim
+  988  sudo apt install vim
+  989  xit
+  990  exit
+  991  echo $SHLVL
+  992  exit;
+  993  echo $SHLVL
+  994  exit;
+  995  echo $SHLVL
+  996  bash
+  997  echo $SHLVL
+  998  clear
+  999  csh
+ 1000  python
+ 1001  echo $PS1
+ 1002  PS1="piyush:"
+ 1003  ls
+ 1004  PS1="piyush\d:"
+ 1005  PS1="piyush\d \t:"
+ 1006  PS1="piyush \d \t \a:"
+ 1007  PS1="piyush \d \t \u:"
+ 1008  PS1="piyush \d \t \u: \!"
+ 1009  PS1="piyush \d \t \u \! \# :"
+ 1010  PS1='\h \W $'
+ 1011  PS2=">>"
+ 1012  echo "hello
+ 1013  "
+ 1014  echo "hello
+ 1015  ";
+ 1016  echo "hello
+ 1017  ;
+ 1018  "
+ 1019  touch s1 s2 s3 s4 main
+ 1020  chmod +x s1 s2 s3 s4 main
+ 1021  gedit main
+ 1022  gedit s1
+ 1023  gedit s2
+ 1024  gedit s3
+ 1025  gedit s4
+ 1026  ./main
+ 1027  cat main
+ 1028  cat s1
+ 1029  /bashrc
+ 1030  ./bashrc
+ 1031  gwdit .bashrc
+ 1032  gedit .bashrc
+ 1033  source .bashrc
+ 1034  echo $EDITOR
+ 1035  sleep 10&
+ 1036  ls -l
+ 1037  echo $((10+5))
+ 1038  echo $((10 + 5))
+ 1039  x=5;y=5;
+ 1040  echo $((x+y))
+ 1041  expr $x+$y
+ 1042  expr $x + $y
+ 1043  str = ""
+ 1044  str=""
+ 1045  [ -z str ] && echo "blank" || echo "not blank"
+ 1046  echo $str
+ 1047  test 10 -gt 9 && echo "Yes"
+ 1048  echo $UID
+ 1049  gedit script2
+ 1050  ./script2
+ 1051  chmod +x script2 
+ 1052  ./script2
+ 1053  gedit script2
+ 1054  ./script2
+ 1055  geddit script3
+ 1056  gedit script3
+ 1057  chmod +x script3 
+ 1058  ./script3
+ 1059  gedit script3
+ 1060  ./script3
+ 1061  gedit script3
+ 1062  ./script3
+ 1063  gedit scrip4
+ 1064  chmod +x scrip4
+ 1065  ./scrip4
+ 1066  date + "%a"
+ 1067  date+"%a"
+ 1068  date +"%a" 
+ 1069  gedit casescript
+ 1070  chmod +x casescript 
+ 1071  ./casescript
+ 1072  gedit casescript
+ 1073  ./casescript
+ 1074  ls && echo "executed"
+ 1075  id - u
+ 1076  id-u
+ 1077  test ! -d ~/mydir && { read -p "dir ~/mydir not found. Hit [Enter] to exit; exit 1;}"; 
+ 1078  test ! -d ~/mydir && { read -p "dir ~/mydir not found. Hit [Enter] to exit" enter; exit 1;} 
+ 1079  echo $?
+ 1080  date
+ 1081  echo $?
+ 1082  ./myscript 
+ 1083  echo $?
+ 1084  ls -l /tmp
+ 1085  echo $?
+ 1086  var1 = 1000
+ 1087  var1=1000
+ 1088  var2=var1
+ 1089  echo $var2
+ 1090  eval echo \$$var2 
+ 1091  echo \$var2
+ 1092  echo \$$var2
+ 1093  let "y = x+1, x++"
+ 1094  echo $y
+ 1095  echo $x
+ 1096  x = 10
+ 1097  x=10
+ 1098  let "y = x+1, x++"
+ 1099  echo $y
+ 1100  echo $x
+ 1101  let "x++, y = x+1"
+ 1102  echo $y
+ 1103  echo $x
+ 1104  let x="5*2+100/10";echo $x
+ 1105  a=10;b=015;c=0xof
+ 1106  echo $a $b $c
+ 1107  let a=10;let b=015;let c=0xof
+ 1108  let a=10;let b=015;let c=0x0f
+ 1109  echo $a $b $c
+ 1110  sudo shutdown now
+ 1111  ls
+ 1112  gedit script5
+ 1113  chmod +x script5
+ 1114  ./script5
+ 1115  gedit script5
+ 1116  ./script5
+ 1117  ls -l
+ 1118  ls -a
+ 1119  ls -s
+ 1120  ls -S
+ 1121  history
+ 1122  vi
+ 1123  vi vifile.txt
+ 1124  sudo apt install vim
+ 1125  sudo apt install vi
+ 1126  sudo apt-get install vim
+ 1127  vim
+ 1128  apt-cache -n search vim
+ 1129  sudo apt update
+ 1130  sudo apt-get install vim-gtk
+ 1131  sudo apt-get install vim-gnome
+ 1132  sudo apt-get install vim-nox
+ 1133  vi
+ 1134  sudo apt install vim-tiny
+ 1135  vi
+ 1136  sudo apt install e3
+ 1137  sudo apt install jvim-canna
+ 1138  sudo apt install nvi
+ 1139  vi
+ 1140  sudo apt install vile
+ 1141  sudo apt install vim-athena
+ 1142  vi
+ 1143  sudo apt install vim-athena-py2
+ 1144  sudo apt install vim-gnome-py2
+ 1145  vim
+ 1146  vi
+ 1147  EDITOR
+ 1148  ls
+ 1149  vi file.txt
+ 1150  vi
+ 1151  vim
+ 1152  sudo apt-get install
+ 1153  sudo apt-get update
+ 1154  sudo apt-get upgrade
+ 1155  sudo vim
+ 1156  vim
+ 1157  sudo apt-get install vim-gnome
+ 1158  gedit forscript1
+ 1159  chmod +x forscript1 
+ 1160  ./forscript1 
+ 1161  gedit forscript2
+ 1162  chmod +x forscript2 
+ 1163  ./forscript2
+ 1164  gedit forscript3
+ 1165  chmod +x forscript3
+ 1166  ./forscript3
+ 1167  gedit forscript4
+ 1168  chmod +x forscript4
+ 1169  ./forscript4
+ 1170  gedit forscript5
+ 1171  chmod +x forscript5
+ 1172  ./forscript5
+ 1173  gedit forscript6
+ 1174  where is bash
+ 1175  whereis bash
+ 1176  gedit forscript6
+ 1177  chmod +x forscript6
+ 1178  ./forscript6
+ 1179  chmod +x forscript7
+ 1180  ./forscript7
+ 1181  gedit whilescript1
+ 1182  chmod +x whilescript1 
+ 1183  ./whilescript1 
+ 1184  /etc/passwd
+ 1185  cat /etc/passwd
+ 1186  gedit whilescript2
+ 1187  chmod +x whilescript2
+ 1188  ./whilescript2
+ 1189  cat /etc/resolv.conf
+ 1190  gedit whilescript3
+ 1191  chmod +x whilescript3
+ 1192  ./whilescript3
+ 1193  gedit untilscript1
+ 1194  chmod +x untilscript1 
+ 1195  ./untilscript1 
+ 1196  gedit untilscript1
+ 1197  ./untilscript1 
+ 1198  gedit breakscript
+ 1199  chmod +x breakscript 
+ 1200  man mv
+ 1201  mv breakscript breakscript1
+ 1202  chmod +x breakscript1 
+ 1203  ./breakscript1 
+ 1204  gedit breakscript1
+ 1205  ./breakscript1 
+ 1206  gedit breakscript1
+ 1207  ./breakscript1 
+ 1208  gedit breakscript2
+ 1209  gedit breakscript1
+ 1210  gedit breakscript2
+ 1211  chmod +x breakscript2
+ 1212  ./breakscript2
+ 1213  gedit breakscript2
+ 1214  ./breakscript2
+ 1215  gedit breakscript2
+ 1216  ./breakscript2
+ 1217  gedit breakcontinuescript
+ 1218  chmod +x breakcontinuescript
+ 1219  ./breakcontinuescript
+ 1220  gedit breakcontinuescript
+ 1221  ./breakcontinuescript
+ 1222  gedit breakcontinuescript
+ 1223  ./breakcontinuescript
+ 1224  gedit paramHandle
+ 1225  ./paramHanndle
+ 1226  ./paramHandle
+ 1227  chmod +x paramHandle 
+ 1228  ./paramHandle
+ 1229  ./paramHandle piyuhg
+ 1230  gedit paramHandle
+ 1231  ./paramHandle piyuhg
+ 1232  cat /etc/passwd
+ 1233  cat /etc/passwd | grep piyuhg
+ 1234  ./paramHandle piyuhg
+ 1235  ./paramHandle piyu
+ 1236  ./paramHandle root
+ 1237  gedit paramHandle1
+ 1238  chmod +x paramHandle1 
+ 1239  ./paramHandle1 root
+ 1240  ./paramHandle1 root piyush name
+ 1241  gedit paramHandle1
+ 1242  ./paramHandle1 root piyush name
+ 1243  gedit paramHandle1
+ 1244  ./paramHandle1 root piyush name
+ 1245  gedit paramHandle1
+ 1246  ./paramHandle1 root piyush name
+ 1247  gedit paramHandle1
+ 1248  ./paramHandle1 root piyush name
+ 1249  gedit paramHandle1
+ 1250  ./paramHandle1 root piyush name
+ 1251  gedit paramHandle1
+ 1252  ./paramHandle1 root piyush name
+ 1253  gedit reverseString
+ 1254  chmod +x reverseString
+ 1255  ./reverseString
+ 1256  gedit reverseString
+ 1257  ./reverseString
+ 1258  gedit reverseString
+ 1259  ./reverseString
+ 1260  cat reverseString 
+ 1261  gedit lines
+ 1262  chmod +x lines
+ 1263  ./lines 10 6 /etc/passwd
+ 1264  gedit lines
+ 1265  ./lines 10 6 /etc/passwd
+ 1266  cat /etc/passwd
+ 1267  ./lines 10 6 /etc/passwd
+ 1268  gedit lines
+ 1269  ./lines 10 6 /etc/passwd
+ 1270  gedit lines
+ 1271  ./lines 10 6 /etc/passwd
+ 1272  gedit lines
+ 1273  ./lines 10 6 /etc/passwd
+ 1274  quit
+ 1275  exit
+ 1276  ls
+ 1277  result
+ 1278  gedit result
+ 1279  rm result
+ 1280  cat file_new.text 
+ 1281  cat markerend
+ 1282  cat marker_end 
+ 1283  cat marker_start 
+ 1284  cat Marks.txt 
+ 1285  cat typescript 
+ 1286  xit
+ 1287  exit
+ 1288  su
+ 1289  ps
+ 1290  ps -e
+ 1291  ps -ef
+ 1292  ps -u piyuhg
+ 1293  ps -a
+ 1294  ps 
+ 1295  ps -t
+ 1296  pstree
+ 1297  pstree -p
+ 1298  sleep 100&
+ 1299  ps -ef | grep sleep
+ 1300  kill -9 9244
+ 1301  ps -ef | grep sleep
+ 1302  kill -l
+ 1303  mkdir s1 s2
+ 1304  mkdir sd1 sd2
+ 1305  cd sd1
+ 1306  cd ~
+ 1307  rmdir sd1
+ 1308  rmdir s0
+ 1309  rmdir sd0
+ 1310  rmdir sd2
+ 1311  mkdir sd0 sd1
+ 1312  cd sd0
+ 1313  touch sd2 sd3
+ 1314  cd ~
+ 1315  touch sd4 sd5 ~/sd1
+ 1316  ls ~/sd1
+ 1317  cd sd1
+ 1318  ls
+ 1319  cd
+ 1320  ls
+ 1321  rm sd4 sd5
+ 1322  cd sd1
+ 1323  touch sd4 sd5
+ 1324  ls -l
+ 1325  cd ~
+ 1326  ls -l sd0
+ 1327  ls -l
+ 1328  man tar
+ 1329  tar -cvf tar_file sd0 sd1
+ 1330  ls -l
+ 1331  ls -l -h
+ 1332  rmdir -rf sd0 sd1
+ 1333  rm -rf sd0 sd1
+ 1334  ls
+ 1335  gzip tar_file
+ 1336  ls -l
+ 1337  gunzip tar_file.gz 
+ 1338  ls -l
+ 1339  tar -tvf tar_file
+ 1340  ls -l
+ 1341  tar -xvf tar_file
+ 1342  ls -f
+ 1343  ls -l
+ 1344  ls -l sd0
+ 1345  crontab -l
+ 1346  gedit run.txt
+ 1347  cat run
+ 1348  cat run.txt
+ 1349  date
+ 1350  crontab -e
+ 1351  .bashrc
+ 1352  gedit .bashrc
+ 1353  crontab -e
+ 1354  exit
+ 1355  gedit pattern1
+ 1356  chmod +x pattern1
+ 1357  ./pattern1 
+ 1358  gedit pattern1
+ 1359  ./pattern1 
+ 1360  gedit pattern2
+ 1361  gedit pattern1
+ 1362  gedit pattern2
+ 1363  chmod +x pattern
+ 1364  chmod +x pattern2
+ 1365  ./pattern2
+ 1366  gedit pattern3
+ 1367  chmod +x patten3
+ 1368  chmod +x pattern3
+ 1369  ./pattern3
+ 1370  gedit pattern4
+ 1371  top
+ 1372  top -b
+ 1373  top -b > topFile.txt
+ 1374  cat topFile.txt 
+ 1375  vmstat
+ 1376  du
+ 1377  du -h
+ 1378  du -s
+ 1379  du -s -h
+ 1380  du -ach
+ 1381  man du
+ 1382  df -s
+ 1383  df
+ 1384  df -h
+ 1385  du -t
+ 1386  uname
+ 1387  whoami
+ 1388  uname -a
+ 1389  man uname
+ 1390  su
+ 1391  sudo passwd root
+ 1392  su
+ 1393  exit
+ 1394  crontab -e
+ 1395  date
+ 1396  crontab -e
+ 1397  mount -l
+ 1398  banner hello
+ 1399  sudo apt install sysvbanner
+ 1400  hello() { echo "Hello world"; echo "This is first function"; }
+ 1401  hello
+ 1402  set
+ 1403  hello() { echo "Hello $1 , this is function declaration"; }
+ 1404  hello piyush
+ 1405  declare -f hello
+ 1406  declare -f
+ 1407  declare -f hello
+ 1408  yday() { date --date='1 day ago'; }
+ 1409  yday
+ 1410  date
+ 1411  cat tomorrow
+ 1412  cat >>tomorrow
+ 1413  chmod +x tomorrow 
+ 1414  ./tomorrow 
+ 1415  tomday
+ 1416  gedit funcTry
+ 1417  chmod +x funcTry 
+ 1418  ./funcTry 
+ 1419  gedit funcTry
+ 1420  ./funcTry 
+ 1421  ./funcTry 5 6
+ 1422  gedit funcTry
+ 1423  ./funcTry 5 6
+ 1424  gedit funcReturn
+ 1425  chmod +x funcReturn 
+ 1426  ./funcReturn 
+ 1427  gedit funcReturn
+ 1428  ./funcReturn 
+ 1429  gedit funcReturn
+ 1430  ./funcReturn 
+ 1431  gedit funcReturn
+ 1432  ./funcReturn PIYUSH
+ 1433  gedit factorial_recurs
+ 1434  chmod +x factorial_recurs 
+ 1435  ./factorial_recurs 5
+ 1436  gedit factorial_recurs
+ 1437  ./factorial_recurs 5
+ 1438  gedit factorial_recurs
+ 1439  ./factorial_recurs 5
+ 1440  ps -C init -o pid=,cmd
+ 1441  sleep 100&
+ 1442  ps -C sleep -o pid,cmd
+ 1443  ps -C sleep -o pid,cmd, stat
+ 1444  ps -C sleep -o pid,cmd,stat
+ 1445  vi
+ 1446  ls
+ 1447  cat run.txt
+ 1448  chmod +x run.txt 
+ 1449  ls
+ 1450  cat info.txt 
+ 1451  man umask
+ 1452  umask 0777
+ 1453  ls -l
+ 1454  touch new
+ 1455  ls -l
+ 1456  umask 0000
+ 1457  touch new1
+ 1458  ls -l
+ 1459  umask 0022
+ 1460  touch new2
+ 1461  ls -l
+ 1462  man umask
+ 1463  amazon
+ 1464  Amazon
+ 1465  Ubuntu Software
+ 1466  firefox
+ 1467  gedit traptry
+ 1468  chmod traptry 
+ 1469  chmod +x traptry 
+ 1470  ./traptry 
+ 1471  gedit
+ 1472  ./traptry ls
+ 1473  ls
+ 1474  cat whilescript1
+ 1475  cat whilescript2
+ 1476  cat whilescript3
+ 1477  cat untilscript1 
+ 1478  cat funcTry 
+ 1479  gedit trapScript
+ 1480  chmod +x trapScript
+ 1481  ./trapScript 
+ 1482  gedit trapScript1
+ 1483  hmod +x trapScript1
+ 1484  chmod +x trapScript1
+ 1485  ./trapScript1
+ 1486  gedit trapScript1
+ 1487  ./trapScript1
+ 1488  gedit trapScript1
+ 1489  ./trapScript1
+ 1490  gedit trapScript1
+ 1491  ./trapScript1
+ 1492  python 3
+ 1493  python3
+ 1494  sudo shutdown now
+ 1495  cat /etc/apt/sources.list
+ 1496  sudo apt-get remove openssh-client
+ 1497  sudp apt-get update
+ 1498  sudo apt-get update
+ 1499  cat /var/lib/apt/lists/lock
+ 1500  sudo cat /var/lib/apt/lists/lock
+ 1501  sudo rm /var/lib/apt/lists/lock
+ 1502  sudo cat /var/lib/apt/lists/lock
+ 1503  sudo apt-get update
+ 1504  sudo apt-get install openssh-client
+ 1505  sudo apt-get install openssh-server
+ 1506  sudoedit /etc/apt/sources.list
+ 1507  exit
+ 1508  gedit copy
+ 1509  exit
+ 1510  sudoedit /etc/apt/sources.list
+ 1511  sudo apt-get update
+ 1512  sudo apt-get install vim
+ 1513  vim
+ 1514  vi
+ 1515  sudoedit /etc/apt/sources.list
+ 1516  sudo apt-get update
+ 1517  sudoedit /etc/apt/sources.list
+ 1518  sudo apt-get update
+ 1519  gedit copy
+ 1520  sudoedit /etc/apt/sources.list
+ 1521  sudo apt-get update
+ 1522  sudo apt-get upgrade
+ 1523  sudo apt-get update
+ 1524  sudoedit /etc/apt/sources.list
+ 1525  sudo apt-get update
+ 1526  sudoedit /etc/apt/sources.list
+ 1527  sudo apt-get update
+ 1528  sudoedit /etc/apt/sources.list
+ 1529  sudo apt-get update
+ 1530  sudo apt-get upgrade
+ 1531  history
+ 1532  history >> history.txt
+    1  q
+    2  quit
+    3  ls
+    4  man ls
+    5  ls -a
+    6  ls -l
+    7  ls -lh
+    8  ls --help
+    9  whatis ls
+   10  whatis cp
+   11  whereis ls
+   12  whereis -m ls
+   13  whereis -ls
+   14  man man
+   15  man passwd
+   16  whereis passwd
+   17  whereis -m passwd
+   18  man 5 passwd
+   19  man woman
+   20  man copy
+   21  --help
+   22  ls --help
+   23  cp --help
+   24  clear
+   25  xterm
+   26  bash
+   27  csh
+   28  tclsh
+   29  python
+   30  python 3
+   31  man man
+   32  man exit
+   33  man sudo
+   34  man man
+   35  pwd
+   36  ls --t
+   37  ls -t
+   38  ls -r
+   39  ls -R
+   40  ls -S
+   41  man ls
+   42  ls -R/etc
+   43  ls -R\etc
+   44  ls -R /etc
+   45  cd desktop
+   46  cd Desktop
+   47  ls -a
+   48  cd .
+   49  cd ..
+   50  ls
+   51  cd ~
+   52  cd /
+   53  cd /home/piyuhg
+   54  cd -
+   55  ls
+   56  q
+   57  quit
+   58  exit
+   59  touch piyush_file.txt
+   60  ls
+   61  touch piyush_file1.txt file2.txt file3.txt
+   62  ls
+   63  touch hello\ world.txt
+   64  ls
+   65  touch man
+   66  ls
+   67  man touch
+   68  clear
+   69  man touch
+   70  touch -t 202001011200 file5.txt
+   71  ls -l
+   72  touch -t 200001011200 file6.txt
+   73  ls -l
+   74  ln file2.txt file3.txt
+   75  ln -f file2.txt file3.txt
+   76  ln -s file4.txt new_file.txt
+   77  ls
+   78  ls -l
+   79  cp file2.txt file3.txt
+   80  cp file2.txt file6.txt
+   81  ls -l
+   82  cp -i file2.txt file5.txt
+   83  mv file2.txt ~/desktop/file2.txt
+   84  mv file2.txt ~/Desktop/file2.txt
+   85  ls
+   86  mv file3.txt new_file.txt
+   87  ls -l
+   88  rm file5
+   89  rm file5.txt
+   90  rm -i file6.txt
+   91  ls
+   92  rm -i hello\ world.txt new_file.txt 
+   93  ls
+   94  mkdir new_dir
+   95  ls
+   96  mkdir -p s3/s4/s5
+   97  cd s3
+   98  ls
+   99  cd s4/
+  100  ls
+  101  cd..
+  102  cd ..
+  103  ls -R s3
+  104  rmdir new_dir
+  105  rmdir s3
+  106  rm -rf s3
+  107  ls
+  108  who
+  109  whoami
+  110  who am i
+  111  ls -l /etc
+  112  ls -l /home/Desktop/file2.txt
+  113  ls -l /homel/Desktop/file2.txt
+  114  ls -l /dev
+  115  file /etc/passwd
+  116  file /dev/sda
+  117  file -s/dev/sda
+  118  file -s /dev/sda
+  119  sudo file -s /dev/sda
+  120  cd ~
+  121  cd /bin
+  122  cd ~
+  123  cd ./../../bin/
+  124  cd ~
+  125  cd ./../home/sandeep
+  126  ls home
+  127  cd /
+  128  ls home
+  129  cd ~
+  130  pwd
+  131  cd /bin
+  132  cd ./../etc
+  133  ld -l /./../bin
+  134  ls -l /./../bin
+  135  cd ~
+  136  ls
+  137  cd /bin
+  138  mkdir /home/new_dir
+  139  mkdir ~/new_dir
+  140  mkdir /home/piyuhg/new_dir2
+  141  rm ~/new_dir
+  142  rmdir ~/new_dir
+  143  ls ~/
+  144  man pushd
+  145  help pushd
+  146  --help pushd
+  147  pushd --help
+  148  cd ~
+  149  pushd --help
+  150  man pushd
+  151  help pushd
+  152  help popd
+  153  pushd /etc
+  154  pwd
+  155  pushd /bin
+  156  pushd ~/Desktop
+  157  popd
+  158  ls -l
+  159  chmod 527 new_file.txt
+  160  ls -l
+  161  chmod 000 new_file.txt
+  162  ls -l
+  163  chmod 777 new_file.txt
+  164  ls -l
+  165  chmod u-r g-w o-x new_file.txt
+  166  chmod u-r new_file.txt
+  167  chmod g-w new_file.txt
+  168  chmod o-x new_file.txt
+  169  ls -l
+  170  chmod o+x new_file.txt
+  171  ls -l
+  172  chmod +w new_file.txt
+  173  ls -l
+  174  chmod 000 new_file.txt
+  175  ls -l
+  176  chmod +w new_file.txt 
+  177  ls -l
+  178  chmod +t new_file.txt
+  179  ls -l
+  180  help umask
+  181  touch file2.txt
+  182  ls -l
+  183  umask 0022
+  184  touch file3.txt
+  185  ls -l
+  186  umask 0777
+  187  touch file4.txt
+  188  ls -l
+  189  cd D
+  190  cd Des
+  191  cd Desktop
+  192  cd ~
+  193  cd Des
+  194  cd Dow
+  195  cd Download
+  196  cd Downloads
+  197  ls Dow
+  198  cd /
+  199  cd `
+  200  q
+  201  exit
+  202  mkdir piyushg
+  203  cd piyushg
+  204  cat abc.txt
+  205  cat <abc.txt
+  206  cat >abc.txt
+  207  exit
+  208  cat >abc.txt
+  209  exit
+  210  cd Downloads/
+  211  cd .
+  212  cd ..
+  213  cd --
+  214  ls
+  215  rm file2.txt
+  216  rm file3.txt
+  217  rm file4.txt
+  218  ls 
+  219  rm piyush_file1.txt 
+  220  rm piyush_file.txt 
+  221  ls
+  222  gedit new_file.txt 
+  223  chmod 777 new_file.txt 
+  224  gedit new_file.txt 
+  225  nano new_file.txt 
+  226  vi new_file.txt
+  227  gedit /etc/passwd
+  228  head -5 /etc/passwd
+  229  head -15 /etc/passwd
+  230  head /etc/passwd
+  231  head -c4 /etc/passwd
+  232  tail /etc.passwd
+  233  tail /etc/passwd
+  234  tail -1 /etc.passwd
+  235  tail -1 /etc/passwd
+  236  cat /etc/passwd
+  237  cat < /etc/passwd
+  238  cat > abc.txt
+  239  cat abc.txt
+  240  ls
+  241  ls -l
+  242  umask 0022
+  243  cat abc.txt
+  244  cat > abc.txt
+  245  cat abc.txt
+  246  cat >> abc.txt
+  247  cat abc.txt
+  248  cat abc.txt /etc/passwd abc.txt
+  249  tac abc.txt
+  250  more /etc/passwd
+  251  less /etc/passwd
+  252  cat /bin/ls
+  253  str
+  254  strings /bin/ls
+  255  history
+  256  which ls
+  257  whereis ls
+  258  whereis -m
+  259  whereis -m ls
+  260  script
+  261  ls
+  262  geddit typescript 
+  263  gedit typescript 
+  264  strings typescript
+  265  gedit typescript 
+  266  cat typescript
+  267  script -a newScript
+  268  cat newScript
+  269  alias piyush = 'ls -alh'
+  270  alias piyush='ls -alh'
+  271  piyush
+  272  un alias piyush
+  273  unalias piyush
+  274  piyush
+  275  alias ls='ls -l'
+  276  ls
+  277  .ls
+  278  \ls
+  279  unalias ls
+  280  ls
+  281  less /etc/passwd
+  282  vi new_file.txt
+  283  ls -l*.txt
+  284  ls -l *.txt
+  285  ls -l *.*
+  286  ls -l *.* /etc
+  287  ls -l /etc/*.*
+  288  ls -l; touch myfile; ls
+  289  rm myfile
+  290  ls
+  291  &&
+  292  head -12 /etc/passwd
+  293  tail -1 /etc/passwd
+  294  cat >me.txt
+  295  tac me.txt
+  296  more /var/log/messages
+  297  strings /usr/bin/passwd
+  298  ls -s /etc
+  299  history
+  300  touch m1.txt m2.txt m3.txt
+  301  ls -l *.txt
+  302  ls *.txt
+  303  ls -S /etc
+  304  man ls
+  305  sudo shutdown now
+  306  ls
+  307  man
+  308  \msn
+  309  \man
+  310  rm man
+  311  ls
+  312  rm m1.txt m2.txt m3.txt me.txt 
+  313  ls
+  314  newScript
+  315  cat newScript
+  316  history
+  317  man sudo
+  318  python
+  319  csh
+  320  history
+  321  man ls
+  322  exit
+  323  head -20 /etc/passwd | tail -5 /etc/passwd
+  324  cat /etc/passwd
+  325  ls
+  326  cat new_file.txt.save
+  327  cat new_file.txt
+  328  rm new_file.txt
+  329  rm new_file.txt.save 
+  330  ls
+  331  cat abc.txt
+  332  cat >>abc.text
+  333  cat anc.txt
+  334  cat abc.txt
+  335  cat <<abc.txt
+  336  hello world
+  337  this is 2nd line
+  338  this is 3rd line
+  339  cat abc.txt
+  340  cat > abc.txt
+  341  cat abc.txt
+  342  cat >> abc.txt
+  343  cat < abc.txt
+  344  ls
+  345  cat abc.text
+  346  rm abc.text 
+  347  ls
+  348  cat abc.txt
+  349  cat >> abc.text
+  350  cat abc.txt
+  351  cat abc.txt abc.text
+  352  cat abc.txt
+  353  cat abc.text << abc.text
+  354  cat << abc.txt abc.text
+  355  rm abc.text abc.txt
+  356  ls
+  357  cat newScript
+  358  rm newScript
+  359  ls
+  360  ls /new_dir2
+  361  ls new_dir2/
+  362  cd new_dir2
+  363  ls
+  364  ls -l
+  365  cd ~
+  366  touch abc.txt
+  367  cat < abc.txt
+  368  cat > abc.txt
+  369  echo "this is done using echo"
+  370  echo 1234
+  371  cat abc.txt
+  372  cat >> abc.txt
+  373  cat abc.txt
+  374  echo "this is file creation using echo" > echo.txt
+  375  cat echo.txt
+  376  echo "this is again doing" > echo.txt
+  377  cat echo.txt
+  378  set -o noclobber
+  379  echo "this is file creation using echo" > echo.txt
+  380  echo "this is file creation using echo" >> echo.txt
+  381  cat echo.txt
+  382  set +o noclobber
+  383  echo "this is file creation using echo" > echo.txt
+  384  cat echo.tct
+  385  cat echo.txt
+  386  head -14 /etc/passwd | tail -8
+  387  ls -S | head -1
+  388  ls -lS | head -1
+  389  ls -l
+  390  ls -S
+  391  ls -lS | head -2 | tail -1
+  392  ls 1> ls.txt 2> ~/lserror.txt
+  393  cat ls.txt
+  394  cat lserror.txt
+  395  ls lq123 2> ~/lserror.txt
+  396  cat lserror.txt
+  397  ls
+  398  rmdir new_dir2/
+  399  ls
+  400  cat abc.txt
+  401  cat >> abc.txt
+  402  cat l?.txt
+  403  cat ls?rror.txt
+  404  cat ls?????.txt
+  405  ls
+  406  ls Do???????
+  407  ls Do?*
+  408  ls D?*
+  409  ls /Desktop
+  410  ls Desktop
+  411  ls Desktop/file.txt
+  412  ls Desktop/file2.txt
+  413  ls *?s
+  414  echo [a-z]
+  415  ls [a-z]
+  416  echo \[a-z]
+  417  ls abc[a-z][A-Z][0-9]*
+  418  ls abc.txt[a-z][A-Z][0-9]*
+  419  ls [a-z]*.txt
+  420  ls [A-Z]
+  421  ls [A-Z]*.*
+  422  ls [A-Z]*
+  423  ls
+  424  grep /etc/passwd
+  425  grep piyuhg /etc/passwd
+  426  grep root /etc/passwd
+  427  cat >> file_grep.txt
+  428  cat file_grep.txt
+  429  grep once file_grep.txt
+  430  grep ONCE file_grep.txt
+  431  grep -i once file_grep.txt
+  432  ls
+  433  grep -v once file_grep.txt
+  434  grep -v line\ once file_grep.txt
+  435  grep -n once file_grep.txt
+  436  grep -vn line\ once file_grep.txt
+  437  grep -c once file_grep.txt
+  438  grep -ci once file_grep.txt
+  439  grep -A3 once file_grep.txt
+  440  grep -A2 once file_grep.txt
+  441  grep -B2 once file_grep.txt
+  442  grep -C1 once file_grep.txt
+  443  grep -C4 once file_grep.txt
+  444  cat /etc/passwd | -i piyuhg
+  445  cat /etc/passwd | grep -i piyuhg
+  446  pgrep bash
+  447  pgrep gnome
+  448  echo "one    two    three"
+  449  echo "one    two    three" > new_file.txt
+  450  cat new_file.txt 
+  451  cat new_file.txt | tr -s ' '
+  452  cat new_file.txt | tr -s ''
+  453  cat new_file.txt | tr -s ' '
+  454  cat new_file.txt | tr -s ' ' > new_file.txt
+  455  cat new_file.txt 
+  456  cat new_file.txt
+  457  echo "one    two    three" > new_file.txt
+  458  cat new_file.txt
+  459  cat new_file.txt | tr -s ' ' | tee > new_file.txt
+  460  cat new_file.txt 
+  461  echo "one    two    three" > new_file.txt
+  462  cat new_file.txt | tr -s ' ' | tee new_file.txt
+  463  cat new_file.txt 
+  464  echo "one    two    three" > new_file.txt
+  465  cat new_file.txt | tr -s ' ' |cat  >> new_file.txt
+  466  cat new_file.txt 
+  467  echo "one    two    three" > new_file.txt
+  468  cat new_file.txt | tr -s ' ' |cat > new_file.txt
+  469  cat new_file.txt 
+  470  echo "one    two    three" > new_file.txt
+  471  cat new_file.txt | tr -s ' ' |cat >> new_file.txt
+  472  cat new_file.txt 
+  473  echo "one    two    three" > new_file.txt
+  474  cat new_file.txt | tr -d 'e'
+  475  cat new_file.txt | tr -d ' '
+  476  cat new_file.txt | tr ' ' '\n'
+  477  cat new_file.txt | tr -s ' '| tr ' ' '\n'
+  478  cat new_file.txt | tr 'o' 'a'
+  479  cat new_file.txt | tr 'a-z' 'n-za-m'
+  480  cat new_file.txt | tr 'a-z' 'n-za-m' | tee new_file2.txt | tr 'a-z' 'n-za-m'
+  481  cat new_file2.txt 
+  482  cat new_file2.txt | tr 'a-z' 'n-za-m'
+  483  cat >> class.txt
+  484  cat class.txt
+  485  cat >> class.txt
+  486  cat class.txt | cut -d' ' -f1
+  487  cat class.txt | cut -d' ' -f2
+  488  cat class.txt | cut -d' ' -f3
+  489  cat class.txt | tr -s ' ' | cut -d' ' -f2
+  490  cat class.txt | tr -s ' ' | cut -d' ' -f3
+  491  cat class.txt | tr -s ' ' | cut -d' ' -f1 | 
+  492  cat class.txt | tr -s ' ' | cut -d' ' -f1 | tee name.txt
+  493  cat name.txt 
+  494  cut -c2-7 /etc/passwd | tail -4
+  495  head -1 /etc/passwd
+  496  cut /etc/passwd d':' -f1 
+  497  cut /etc/passwd -d: -f1 
+  498  cut /etc/passwd -d':' -f1 
+  499  cat /etc/passwd | wc -c
+  500  cat /etc/passwd | wc -w
+  501  cat /etc/passwd | wc -l
+  502  cat /etc/passwd | wc -cwl
+  503  cat /etc/passwd | wc -wcl
+  504  cat class.txt | tr -s ' ' | cut -d' ' -f1 | tee name.txt |  echo
+  505  cat name.txt
+  506  cat class.txt
+  507  cat class.txt | tr -s ' ' | cut -d' ' -f1 | tee name.txt
+  508  cat class.txt | tr -s ' ' | tee name.txt
+  509  cat name.txt 
+  510  sort -n -3 name.txt
+  511  sort -n-3 name.txt
+  512  sort -n -k3 name.txt
+  513  sort -k1 name.txt
+  514  sort -r -k1 name.txt
+  515  sort -k2 name.txt
+  516  cat name.txt | uniq
+  517  cat name.txt |sort -k1| uniq
+  518  cat name.txt |sort -k3| uniq
+  519  cat name.txt |sort -k3| uniq -c
+  520  cp name.txt namecopy.txt
+  521  ls
+  522  cat namecopy.txt
+  523  cat >>  namecopy.txt
+  524  comm name.txt namecopy.txt
+  525  cat << name.txt
+  526  cat >> name.txt
+  527  comm name.txt namecopy.txt
+  528  comm -12 name.txt namecopy.txt
+  529  comm -1 name.txt namecopy.txt
+  530  comm -23 name.txt namecopy.txt
+  531  diff name.txt namecopy.txt 
+  532  cat name.txt 
+  533  cat namecopy.txt 
+  534  cat namecopy.txt | wc -l
+  535  cat > new3.txt
+  536  cat new3.txt 
+  537  cat namecopy.txt | wc -w
+  538  cat namecopy.txt |head -1| wc -w
+  539  od -t o1 new.txt
+  540  od -t o1 new3.txt
+  541  od -t x1 new3.txt
+  542  od -t b new3.txt
+  543  man od
+  544  od  -b new3.txt
+  545  find -name "*.txt"
+  546  find . -name "*.txt"
+  547  mkdir abc1.txt
+  548  ls
+  549  find . -name "*.txt"
+  550  find . -type f -name "*.txt"
+  551  find . -type d -name "*.txt"
+  552  touch permi.txt
+  553  chmod 777 permi.txt 
+  554  ls -l
+  555  find . -perm 0777 "*.txt"
+  556  find . -newer abc.txt
+  557  find . -perm 0777 
+  558  find. -name "*.txt" -exec cp{} /home/piyuhg/backup/ \;
+  559  find . -name "*.txt" -exec cp{} /home/piyuhg/backup/ \;
+  560  find . -name "*.txt" -exec cp{} /home/piyuhg/backup/ \;ls
+  561  ls
+  562  mkdir backup
+  563  find . -name "*.txt" -exec cp{} /home/piyuhg/backup/ \;ls
+  564  find . -name "*.txt" -exec cp{} /home/piyuhg/backup/ \;
+  565  cd backup
+  566  ls
+  567  find ~ -name "*.txt" -exec cp {} /home/piyuhg/backup/ \;
+  568  ls
+  569  cd ~
+  570  cd backup
+  571  find . -name "*.txt" -ok rm {} \;
+  572  y
+  573  ls
+  574  cd ~
+  575  finf / -name "*.txt" > name4.txt
+  576  find / -name "*.txt" > name4.txt
+  577  cat name4.txt 
+  578  cat name4.txt | wc -l
+  579  find. -type f -empty
+  580  find . -empty
+  581  find / -user root -name tecmint.txt
+  582  find . -mtime 2
+  583  find . -mtime -2
+  584  find . -atime -2
+  585  find . -mtime 1
+  586  find . -mtime +1 -3
+  587  find . -mtime +1 -mtime -3
+  588  find . -mtime +3 -mtime -1
+  589  find . -mtime +1 -mtime -1
+  590  find . -mtime +1 -mtime -2
+  591  find . -mtime +1 -mtime -3
+  592  find . -mmin -60
+  593  find . -amin -60
+  594  find / -size 50M
+  595  find . cmin -60
+  596  find . mmin -60
+  597  find . -cmin -60
+  598  find / -size 50M
+  599  find . -size 50b
+  600  find . -size 50
+  601  quit
+  602  exit
+  603  sudo shutdown on
+  604  sudo shutdown now
+  605  exit
+  606  echo hello there
+  607  clc
+  608  clear all
+  609  history
+  610  ls
+  611  cat abc.txt
+  612  head -8 abc.text | tail -4 
+  613  head -8 abc.txt | tail -4 
+  614  cat name.txt
+  615  rm name.txt 
+  616  la
+  617  rm namecopy.txt 
+  618  ls
+  619  rmdir abc1.txt/
+  620  ls
+  621  cd piyushg/
+  622  ls
+  623  cat abc.txt 
+  624  cd ..
+  625  rmdir piyushg/
+  626  rmdir -f piyushg/
+  627  rmdir -r piyushg/
+  628  rm -rf piyushg/
+  629  rm backup/
+  630  rmdir backup/
+  631  mkdir backup
+  632  rmdir backup
+  633  ls
+  634  cat class.txt 
+  635  rm class.txt 
+  636  cat > class.txt
+  637  /sbin/ifconfig
+  638  grep "inet" /sbin/ifconfig
+  639  history
+  640  grep inet /sbin/ifconfig
+  641  /sbin/ifconfig | grep inet
+  642  /sbin/ifconfig | grep netmask
+  643  /sbin/ifconfig | grep netmask | cut -d f1
+  644  /sbin/ifconfig | grep netmask | cut -d' ' f1
+  645  /sbin/ifconfig | grep netmask | cut -d' ' -f1
+  646  /sbin/ifconfig | grep netmask | ts -s ' '
+  647  /sbin/ifconfig | grep netmask | tr -s ' '
+  648  /sbin/ifconfig | grep netmask | tr -s ' ' | cut -d ' ' f1
+  649  /sbin/ifconfig | grep netmask | tr -s ' ' | cut -d ' ' -f1
+  650  /sbin/ifconfig | grep netmask | tr -s' '
+  651  /sbin/ifconfig | grep netmask | tr -s ' '
+  652  /sbin/ifconfig | grep netmask | tr -s ' '| cut -d' ' -f2
+  653  /sbin/ifconfig | grep netmask | tr -s ' '| cut -d' ' -f3
+  654  /sbin/ifconfig | grep netmask
+  655  echo "The sun is shining in the sky" > text.txt
+  656  cat text.txt | tr 'A-Z' 'a-z\n'
+  657  cat text.txt | tr 'A-Z' 'a-z\n'|sort
+  658  cat text.txt | tr 'A-Z' 'a-z\n'| sort | uniq > result | comm -1 result dict.text
+  659  cat > dict.text
+  660  cat text.txt | tr 'A-Z' 'a-z\n'| sort | uniq > result | comm -1 result dict.text
+  661  cat text.txt | tr 'A-Z' 'a-z\n'| sort | uniq > result | comm  result dict.text
+  662  cat text.txt | tr 'A-Z' 'a-z\n'| sort | uniq > result | comm result dict.text
+  663  cat text.txt | tr 'A-Z' 'a-z\n'| sort | uniq > result | diff result dict.text
+  664  cat result
+  665  cat text.txt | tr 'A-Z ' 'a-z\n'| sort | uniq > result | diff result dict.text
+  666  cat 
+  667  cat text.txt | tr 'A-Z ' 'a-z\n'| sort 
+  668  cat text.txt | tr 'A-Z ' 'a-z\n'| sort | uniq
+  669  cat dict.text 
+  670  cat text.txt | tr 'A-Z ' 'a-z\n'| sort | uniq > result | diff result dict.text
+  671  cat text.txt | tr 'A-Z' 'a-z\n'| sort | uniq > result | comm result dict.text
+  672  find . -tpe f -newerat "20120130 23:59:59"
+  673  find . -type f -newerat "20120130 23:59:59"
+  674  touch -t 201201302359 marker_date
+  675  find . -type f -newer marker_date
+  676  touch -t 201301310000 marker_start
+  677  touch -t 201301010000 marker_start
+  678  touch -t 201301310000 marker_end
+  679  find . -type f -name "*.txt" -newer marker_start ! -newer marker_end
+  680  ls -l marker_start
+  681  ls -l marker_end
+  682  find . -type f -name "*.txt" -newer marker_start ! -newer marker_end
+  683  touch -t 201901510000 marker_start
+  684  touch -t 201901050000 marker_start
+  685  touch -t 201901060000 marker_end
+  686  find . -type f -name "*.txt" -newer marker_start ! -newer marker_end
+  687  find . -name "*.txt" -exec cp {} ~/backup/ \;
+  688  cd backup
+  689  mkdir backup
+  690  find . -name "*.txt" -exec cp {} ~/backup/ \;
+  691  ls backup
+  692  cd backup
+  693  ls
+  694  cd ~
+  695  find . -name "*.txt" -exec mv {} {}f \;
+  696  ls
+  697  find . -name "*.txtf" -exec rm {} \;
+  698  cd backup
+  699  find . -name "*.txt" -exec cp {} ~/ \;
+  700  cd ~
+  701  ls
+  702  cd backup
+  703  ls
+  704  cd ~
+  705  ls
+  706  find / -name "*.txt" > file1
+  707  find / -name '*.txt' > file2
+  708  cat file1
+  709  cat file2
+  710  diff file1 file2
+  711  comm file1 file2
+  712  exit
+  713  echo name \n piyush
+  714  echo "name \n piyush"
+  715  echo -e "name \n piyush"
+  716  echo -e 'name \n piyush'
+  717  echo -e 'name \npiyush' > file.txt
+  718  sleep 5
+  719  sleep 5&
+  720  sleep 5 &
+  721  fg 8557
+  722  fg 1
+  723  fg 2
+  724  fg [1]
+  725  sleep 100&
+  726  fg 1
+  727  sleep 60&
+  728  jobs
+  729  sleep 100&
+  730  jobs
+  731  date
+  732  man date
+  733  date +%a
+  734  man date
+  735  date +'%A %d-%m-%Y'
+  736  date -d'1970-01-01 + 2000000000 seconds'
+  737  time
+  738  time date
+  739  time sleep 10
+  740  cal
+  741  cal, cal 10 1998
+  742  cal 10 1998
+  743  cal 01 10 1998
+  744  cal 10 1998
+  745  clear
+  746  ls
+  747  vi file.txt 
+  748  vi
+  749  ls
+  750  cat marker_
+  751  cat marker_date 
+  752  cat typescript 
+  753  clear
+  754  man
+  755  man help
+  756  xterm
+  757  whatis ls
+  758  whichis ls
+  759  whereis ls
+  760  where is ls
+  761  what is ls
+  762  whatis ls
+  763  whereis ls
+  764  man head
+  765  cd -
+  766  pwd
+  767  ls
+  768  cd Downloads/
+  769  cd -
+  770  cd ..
+  771  cd ~
+  772  claer
+  773  clear
+  774  sudo shutdown now
+  775  history
+  776  vi file_new.text
+  777  cp/usr/share/commom-licenses/BSD
+  778  cp/usr/share/common-licenses/BSD
+  779  cp /usr/share/common-licenses/BSD ~
+  780  vi BSD
+  781  vim
+  782  sudo apt install vim
+  783  vi BSD
+  784  fg 1
+  785  jobs
+  786  vi BSD
+  787  echo "hello"
+  788  echo 'hello;
+  789  echo 'hello'
+  790  echo hello
+  791  echo $a
+  792  quit
+  793  exit
+  794  echo $a
+  795  clear
+  796  echo $a
+  797  exit
+  798  echo $a
+  799  exit
+  800  echo $a
+  801  exit
+  802  echo $a
+  803  echo \"hello world"
+  804  "
+  805  echo \"hello worl\"
+  806  echo \"hello world\"
+  807  printenv
+  808  echo hello worldpiyush
+  809  echo hello world piyush
+  810  a = date
+  811  $a=date
+  812  a=date
+  813  $a
+  814  a
+  815  echo $a
+  816  echo a
+  817  echo $$a
+  818  c="date";echo $c
+  819  d = 'date':echo $d
+  820  d = 'date';echo $d
+  821  d='date';echo $d
+  822  d=`date;echo $d
+  823  a=`date`
+  824  echo $a
+  825  d=`date`;echo $d
+  826  echo ls
+  827  echo `ls`
+  828  echo $(ls)
+  829  echo `a`
+  830  unseta
+  831  unset a
+  832  $b
+  833  $c
+  834  unset b
+  835  unset c
+  836  unset d
+  837  set
+  838  env
+  839  exit
+  840  vim
+  841  ls
+  842  script newScript
+  843  ls
+  844  echo echo this is my first script > myscript
+  845  chmod +x myscript 
+  846  ./myscript 
+  847  cat myscript 
+  848  echo
+  849  echo -n
+  850  echo "hello\n"
+  851  echo -n "hello\n"
+  852  echo -e "hello\n"
+  853  echo -n "A line \na newline escaped character"
+  854  echo -n "A line \ta tab escaped character"
+  855  echo -e "A line \ta tab escaped character"
+  856  gedit fileScript
+  857  ./fileScript
+  858  chmod +x fileScript 
+  859  ./fileScript
+  860  gedit fileScript
+  861  ./fileScript
+  862  ls
+  863  cat newScript 
+  864  gedit fileScript
+  865  ./fileScript
+  866  gedit fileScript
+  867  ./fileScript
+  868  vi .bashrc
+  869  type cd
+  870  type cat
+  871  type ls
+  872  a=123
+  873  echo $a
+  874  export a
+  875  bash
+  876  exit
+  877  a="piyush"
+  878  export a
+  879  printenv
+  880  read me
+  881  echo $me
+  882  read -p "enter your name: " name
+  883  echo $name
+  884  read -p "enter your name: " name
+  885  echo $name
+  886  read -p "enter your name: " name
+  887  echo $name
+  888  read -t 10 -p "enter your name: " username
+  889  read -s -p "enter password: " mypasswd
+  890  echo $mypasswd 
+  891  data = "Piyush Gupta 9213456000 /home"
+  892  data="Piyush Gupta 9213456000 /home"
+  893  read -r firstname lastname number path <<< "data"
+  894  echo "your name is $firstname $lastname and number is $number with path $path"
+  895  read -r firstname lastname number path <<< "$data"
+  896  echo "your name is $firstname $lastname and number is $number with path $path"
+  897  set +o history
+  898  set -o
+  899  shopt -p
+  900  shopt -s cdspell
+  901  cd /etcc
+  902  cd ~
+  903  cd /etccc
+  904  cd ~/desktop
+  905  cd ~
+  906  shopt -u cdspell
+  907  gedit exampleScript
+  908  ./exampleScript
+  909  chmod +x exampleScript 
+  910  ./exampleScript
+  911  gedit exampleScript
+  912  ./exampleScript
+  913  gedit exampleScript
+  914  ./exampleScript
+  915  cat Marks.txt 
+  916  ./exampleScript
+  917  cat Marks.txt 
+  918  ./exampleScript
+  919  cat Marks.txt 
+  920  gedit exampleScript
+  921  exit
+  922  gedit newScript
+  923  ls
+  924  cat newScript
+  925  clear
+  926  rm newScript 
+  927  gedit newScript
+  928  ./newScript
+  929  chmod +x newScript 
+  930  ./newScript
+  931  gedit newScript
+  932  ./newScript
+  933  gedit newScript
+  934  cat file5.txt
+  935  rm file5.txt
+  936  ls
+  937  ./newScript
+  938  cat file5.txt
+  939  exit
+  940  vim
+  941  sudo apt install vim
+  942  sudo apt install gvim
+  943  vim file5.txt 
+  944  printenv
+  945  printenv | grep "HOST*"
+  946  env
+  947  HOSTNAME
+  948  echo $HOSTNAME
+  949  echo $USER
+  950  echo $UID
+  951  echo $SHELL
+  952  echo $HOME
+  953  echo $HOSTID
+  954  echo $WINDOW_ID
+  955  echo $WINDOWID
+  956  echo $PWD
+  957  echo $PATH
+  958  PATH=""
+  959  echo $PATH
+  960  LS
+  961  ls
+  962  cd
+  963  exit
+  964  ls
+  965  echo $PATH
+  966  PATH="$PATh:/home/piyuhg/"
+  967  echo $PATH
+  968  ls -l
+  969  myScript
+  970  fileScript
+  971  ls
+  972  exit
+  973  ls -s
+  974  ls -l
+  975  clear
+  976  PATH="$PATH:/home/piyuhg/"
+  977  ls
+  978  echo $PATH
+  979  file.txt
+  980  file5.txt
+  981  newScript 
+  982  cat file5.txt 
+  983  gedit file5.txt 
+  984  cat file5.txt 
+  985  gedit file5.txt 
+  986  cat file5.txt 
+  987  vim
+  988  sudo apt install vim
+  989  xit
+  990  exit
+  991  echo $SHLVL
+  992  exit;
+  993  echo $SHLVL
+  994  exit;
+  995  echo $SHLVL
+  996  bash
+  997  echo $SHLVL
+  998  clear
+  999  csh
+ 1000  python
+ 1001  echo $PS1
+ 1002  PS1="piyush:"
+ 1003  ls
+ 1004  PS1="piyush\d:"
+ 1005  PS1="piyush\d \t:"
+ 1006  PS1="piyush \d \t \a:"
+ 1007  PS1="piyush \d \t \u:"
+ 1008  PS1="piyush \d \t \u: \!"
+ 1009  PS1="piyush \d \t \u \! \# :"
+ 1010  PS1='\h \W $'
+ 1011  PS2=">>"
+ 1012  echo "hello
+ 1013  "
+ 1014  echo "hello
+ 1015  ";
+ 1016  echo "hello
+ 1017  ;
+ 1018  "
+ 1019  touch s1 s2 s3 s4 main
+ 1020  chmod +x s1 s2 s3 s4 main
+ 1021  gedit main
+ 1022  gedit s1
+ 1023  gedit s2
+ 1024  gedit s3
+ 1025  gedit s4
+ 1026  ./main
+ 1027  cat main
+ 1028  cat s1
+ 1029  /bashrc
+ 1030  ./bashrc
+ 1031  gwdit .bashrc
+ 1032  gedit .bashrc
+ 1033  source .bashrc
+ 1034  echo $EDITOR
+ 1035  sleep 10&
+ 1036  ls -l
+ 1037  echo $((10+5))
+ 1038  echo $((10 + 5))
+ 1039  x=5;y=5;
+ 1040  echo $((x+y))
+ 1041  expr $x+$y
+ 1042  expr $x + $y
+ 1043  str = ""
+ 1044  str=""
+ 1045  [ -z str ] && echo "blank" || echo "not blank"
+ 1046  echo $str
+ 1047  test 10 -gt 9 && echo "Yes"
+ 1048  echo $UID
+ 1049  gedit script2
+ 1050  ./script2
+ 1051  chmod +x script2 
+ 1052  ./script2
+ 1053  gedit script2
+ 1054  ./script2
+ 1055  geddit script3
+ 1056  gedit script3
+ 1057  chmod +x script3 
+ 1058  ./script3
+ 1059  gedit script3
+ 1060  ./script3
+ 1061  gedit script3
+ 1062  ./script3
+ 1063  gedit scrip4
+ 1064  chmod +x scrip4
+ 1065  ./scrip4
+ 1066  date + "%a"
+ 1067  date+"%a"
+ 1068  date +"%a" 
+ 1069  gedit casescript
+ 1070  chmod +x casescript 
+ 1071  ./casescript
+ 1072  gedit casescript
+ 1073  ./casescript
+ 1074  ls && echo "executed"
+ 1075  id - u
+ 1076  id-u
+ 1077  test ! -d ~/mydir && { read -p "dir ~/mydir not found. Hit [Enter] to exit; exit 1;}"; 
+ 1078  test ! -d ~/mydir && { read -p "dir ~/mydir not found. Hit [Enter] to exit" enter; exit 1;} 
+ 1079  echo $?
+ 1080  date
+ 1081  echo $?
+ 1082  ./myscript 
+ 1083  echo $?
+ 1084  ls -l /tmp
+ 1085  echo $?
+ 1086  var1 = 1000
+ 1087  var1=1000
+ 1088  var2=var1
+ 1089  echo $var2
+ 1090  eval echo \$$var2 
+ 1091  echo \$var2
+ 1092  echo \$$var2
+ 1093  let "y = x+1, x++"
+ 1094  echo $y
+ 1095  echo $x
+ 1096  x = 10
+ 1097  x=10
+ 1098  let "y = x+1, x++"
+ 1099  echo $y
+ 1100  echo $x
+ 1101  let "x++, y = x+1"
+ 1102  echo $y
+ 1103  echo $x
+ 1104  let x="5*2+100/10";echo $x
+ 1105  a=10;b=015;c=0xof
+ 1106  echo $a $b $c
+ 1107  let a=10;let b=015;let c=0xof
+ 1108  let a=10;let b=015;let c=0x0f
+ 1109  echo $a $b $c
+ 1110  sudo shutdown now
+ 1111  ls
+ 1112  gedit script5
+ 1113  chmod +x script5
+ 1114  ./script5
+ 1115  gedit script5
+ 1116  ./script5
+ 1117  ls -l
+ 1118  ls -a
+ 1119  ls -s
+ 1120  ls -S
+ 1121  history
+ 1122  vi
+ 1123  vi vifile.txt
+ 1124  sudo apt install vim
+ 1125  sudo apt install vi
+ 1126  sudo apt-get install vim
+ 1127  vim
+ 1128  apt-cache -n search vim
+ 1129  sudo apt update
+ 1130  sudo apt-get install vim-gtk
+ 1131  sudo apt-get install vim-gnome
+ 1132  sudo apt-get install vim-nox
+ 1133  vi
+ 1134  sudo apt install vim-tiny
+ 1135  vi
+ 1136  sudo apt install e3
+ 1137  sudo apt install jvim-canna
+ 1138  sudo apt install nvi
+ 1139  vi
+ 1140  sudo apt install vile
+ 1141  sudo apt install vim-athena
+ 1142  vi
+ 1143  sudo apt install vim-athena-py2
+ 1144  sudo apt install vim-gnome-py2
+ 1145  vim
+ 1146  vi
+ 1147  EDITOR
+ 1148  ls
+ 1149  vi file.txt
+ 1150  vi
+ 1151  vim
+ 1152  sudo apt-get install
+ 1153  sudo apt-get update
+ 1154  sudo apt-get upgrade
+ 1155  sudo vim
+ 1156  vim
+ 1157  sudo apt-get install vim-gnome
+ 1158  gedit forscript1
+ 1159  chmod +x forscript1 
+ 1160  ./forscript1 
+ 1161  gedit forscript2
+ 1162  chmod +x forscript2 
+ 1163  ./forscript2
+ 1164  gedit forscript3
+ 1165  chmod +x forscript3
+ 1166  ./forscript3
+ 1167  gedit forscript4
+ 1168  chmod +x forscript4
+ 1169  ./forscript4
+ 1170  gedit forscript5
+ 1171  chmod +x forscript5
+ 1172  ./forscript5
+ 1173  gedit forscript6
+ 1174  where is bash
+ 1175  whereis bash
+ 1176  gedit forscript6
+ 1177  chmod +x forscript6
+ 1178  ./forscript6
+ 1179  chmod +x forscript7
+ 1180  ./forscript7
+ 1181  gedit whilescript1
+ 1182  chmod +x whilescript1 
+ 1183  ./whilescript1 
+ 1184  /etc/passwd
+ 1185  cat /etc/passwd
+ 1186  gedit whilescript2
+ 1187  chmod +x whilescript2
+ 1188  ./whilescript2
+ 1189  cat /etc/resolv.conf
+ 1190  gedit whilescript3
+ 1191  chmod +x whilescript3
+ 1192  ./whilescript3
+ 1193  gedit untilscript1
+ 1194  chmod +x untilscript1 
+ 1195  ./untilscript1 
+ 1196  gedit untilscript1
+ 1197  ./untilscript1 
+ 1198  gedit breakscript
+ 1199  chmod +x breakscript 
+ 1200  man mv
+ 1201  mv breakscript breakscript1
+ 1202  chmod +x breakscript1 
+ 1203  ./breakscript1 
+ 1204  gedit breakscript1
+ 1205  ./breakscript1 
+ 1206  gedit breakscript1
+ 1207  ./breakscript1 
+ 1208  gedit breakscript2
+ 1209  gedit breakscript1
+ 1210  gedit breakscript2
+ 1211  chmod +x breakscript2
+ 1212  ./breakscript2
+ 1213  gedit breakscript2
+ 1214  ./breakscript2
+ 1215  gedit breakscript2
+ 1216  ./breakscript2
+ 1217  gedit breakcontinuescript
+ 1218  chmod +x breakcontinuescript
+ 1219  ./breakcontinuescript
+ 1220  gedit breakcontinuescript
+ 1221  ./breakcontinuescript
+ 1222  gedit breakcontinuescript
+ 1223  ./breakcontinuescript
+ 1224  gedit paramHandle
+ 1225  ./paramHanndle
+ 1226  ./paramHandle
+ 1227  chmod +x paramHandle 
+ 1228  ./paramHandle
+ 1229  ./paramHandle piyuhg
+ 1230  gedit paramHandle
+ 1231  ./paramHandle piyuhg
+ 1232  cat /etc/passwd
+ 1233  cat /etc/passwd | grep piyuhg
+ 1234  ./paramHandle piyuhg
+ 1235  ./paramHandle piyu
+ 1236  ./paramHandle root
+ 1237  gedit paramHandle1
+ 1238  chmod +x paramHandle1 
+ 1239  ./paramHandle1 root
+ 1240  ./paramHandle1 root piyush name
+ 1241  gedit paramHandle1
+ 1242  ./paramHandle1 root piyush name
+ 1243  gedit paramHandle1
+ 1244  ./paramHandle1 root piyush name
+ 1245  gedit paramHandle1
+ 1246  ./paramHandle1 root piyush name
+ 1247  gedit paramHandle1
+ 1248  ./paramHandle1 root piyush name
+ 1249  gedit paramHandle1
+ 1250  ./paramHandle1 root piyush name
+ 1251  gedit paramHandle1
+ 1252  ./paramHandle1 root piyush name
+ 1253  gedit reverseString
+ 1254  chmod +x reverseString
+ 1255  ./reverseString
+ 1256  gedit reverseString
+ 1257  ./reverseString
+ 1258  gedit reverseString
+ 1259  ./reverseString
+ 1260  cat reverseString 
+ 1261  gedit lines
+ 1262  chmod +x lines
+ 1263  ./lines 10 6 /etc/passwd
+ 1264  gedit lines
+ 1265  ./lines 10 6 /etc/passwd
+ 1266  cat /etc/passwd
+ 1267  ./lines 10 6 /etc/passwd
+ 1268  gedit lines
+ 1269  ./lines 10 6 /etc/passwd
+ 1270  gedit lines
+ 1271  ./lines 10 6 /etc/passwd
+ 1272  gedit lines
+ 1273  ./lines 10 6 /etc/passwd
+ 1274  quit
+ 1275  exit
+ 1276  ls
+ 1277  result
+ 1278  gedit result
+ 1279  rm result
+ 1280  cat file_new.text 
+ 1281  cat markerend
+ 1282  cat marker_end 
+ 1283  cat marker_start 
+ 1284  cat Marks.txt 
+ 1285  cat typescript 
+ 1286  xit
+ 1287  exit
+ 1288  su
+ 1289  ps
+ 1290  ps -e
+ 1291  ps -ef
+ 1292  ps -u piyuhg
+ 1293  ps -a
+ 1294  ps 
+ 1295  ps -t
+ 1296  pstree
+ 1297  pstree -p
+ 1298  sleep 100&
+ 1299  ps -ef | grep sleep
+ 1300  kill -9 9244
+ 1301  ps -ef | grep sleep
+ 1302  kill -l
+ 1303  mkdir s1 s2
+ 1304  mkdir sd1 sd2
+ 1305  cd sd1
+ 1306  cd ~
+ 1307  rmdir sd1
+ 1308  rmdir s0
+ 1309  rmdir sd0
+ 1310  rmdir sd2
+ 1311  mkdir sd0 sd1
+ 1312  cd sd0
+ 1313  touch sd2 sd3
+ 1314  cd ~
+ 1315  touch sd4 sd5 ~/sd1
+ 1316  ls ~/sd1
+ 1317  cd sd1
+ 1318  ls
+ 1319  cd
+ 1320  ls
+ 1321  rm sd4 sd5
+ 1322  cd sd1
+ 1323  touch sd4 sd5
+ 1324  ls -l
+ 1325  cd ~
+ 1326  ls -l sd0
+ 1327  ls -l
+ 1328  man tar
+ 1329  tar -cvf tar_file sd0 sd1
+ 1330  ls -l
+ 1331  ls -l -h
+ 1332  rmdir -rf sd0 sd1
+ 1333  rm -rf sd0 sd1
+ 1334  ls
+ 1335  gzip tar_file
+ 1336  ls -l
+ 1337  gunzip tar_file.gz 
+ 1338  ls -l
+ 1339  tar -tvf tar_file
+ 1340  ls -l
+ 1341  tar -xvf tar_file
+ 1342  ls -f
+ 1343  ls -l
+ 1344  ls -l sd0
+ 1345  crontab -l
+ 1346  gedit run.txt
+ 1347  cat run
+ 1348  cat run.txt
+ 1349  date
+ 1350  crontab -e
+ 1351  .bashrc
+ 1352  gedit .bashrc
+ 1353  crontab -e
+ 1354  exit
+ 1355  gedit pattern1
+ 1356  chmod +x pattern1
+ 1357  ./pattern1 
+ 1358  gedit pattern1
+ 1359  ./pattern1 
+ 1360  gedit pattern2
+ 1361  gedit pattern1
+ 1362  gedit pattern2
+ 1363  chmod +x pattern
+ 1364  chmod +x pattern2
+ 1365  ./pattern2
+ 1366  gedit pattern3
+ 1367  chmod +x patten3
+ 1368  chmod +x pattern3
+ 1369  ./pattern3
+ 1370  gedit pattern4
+ 1371  top
+ 1372  top -b
+ 1373  top -b > topFile.txt
+ 1374  cat topFile.txt 
+ 1375  vmstat
+ 1376  du
+ 1377  du -h
+ 1378  du -s
+ 1379  du -s -h
+ 1380  du -ach
+ 1381  man du
+ 1382  df -s
+ 1383  df
+ 1384  df -h
+ 1385  du -t
+ 1386  uname
+ 1387  whoami
+ 1388  uname -a
+ 1389  man uname
+ 1390  su
+ 1391  sudo passwd root
+ 1392  su
+ 1393  exit
+ 1394  crontab -e
+ 1395  date
+ 1396  crontab -e
+ 1397  mount -l
+ 1398  banner hello
+ 1399  sudo apt install sysvbanner
+ 1400  hello() { echo "Hello world"; echo "This is first function"; }
+ 1401  hello
+ 1402  set
+ 1403  hello() { echo "Hello $1 , this is function declaration"; }
+ 1404  hello piyush
+ 1405  declare -f hello
+ 1406  declare -f
+ 1407  declare -f hello
+ 1408  yday() { date --date='1 day ago'; }
+ 1409  yday
+ 1410  date
+ 1411  cat tomorrow
+ 1412  cat >>tomorrow
+ 1413  chmod +x tomorrow 
+ 1414  ./tomorrow 
+ 1415  tomday
+ 1416  gedit funcTry
+ 1417  chmod +x funcTry 
+ 1418  ./funcTry 
+ 1419  gedit funcTry
+ 1420  ./funcTry 
+ 1421  ./funcTry 5 6
+ 1422  gedit funcTry
+ 1423  ./funcTry 5 6
+ 1424  gedit funcReturn
+ 1425  chmod +x funcReturn 
+ 1426  ./funcReturn 
+ 1427  gedit funcReturn
+ 1428  ./funcReturn 
+ 1429  gedit funcReturn
+ 1430  ./funcReturn 
+ 1431  gedit funcReturn
+ 1432  ./funcReturn PIYUSH
+ 1433  gedit factorial_recurs
+ 1434  chmod +x factorial_recurs 
+ 1435  ./factorial_recurs 5
+ 1436  gedit factorial_recurs
+ 1437  ./factorial_recurs 5
+ 1438  gedit factorial_recurs
+ 1439  ./factorial_recurs 5
+ 1440  ps -C init -o pid=,cmd
+ 1441  sleep 100&
+ 1442  ps -C sleep -o pid,cmd
+ 1443  ps -C sleep -o pid,cmd, stat
+ 1444  ps -C sleep -o pid,cmd,stat
+ 1445  vi
+ 1446  ls
+ 1447  cat run.txt
+ 1448  chmod +x run.txt 
+ 1449  ls
+ 1450  cat info.txt 
+ 1451  man umask
+ 1452  umask 0777
+ 1453  ls -l
+ 1454  touch new
+ 1455  ls -l
+ 1456  umask 0000
+ 1457  touch new1
+ 1458  ls -l
+ 1459  umask 0022
+ 1460  touch new2
+ 1461  ls -l
+ 1462  man umask
+ 1463  amazon
+ 1464  Amazon
+ 1465  Ubuntu Software
+ 1466  firefox
+ 1467  gedit traptry
+ 1468  chmod traptry 
+ 1469  chmod +x traptry 
+ 1470  ./traptry 
+ 1471  gedit
+ 1472  ./traptry ls
+ 1473  ls
+ 1474  cat whilescript1
+ 1475  cat whilescript2
+ 1476  cat whilescript3
+ 1477  cat untilscript1 
+ 1478  cat funcTry 
+ 1479  gedit trapScript
+ 1480  chmod +x trapScript
+ 1481  ./trapScript 
+ 1482  gedit trapScript1
+ 1483  hmod +x trapScript1
+ 1484  chmod +x trapScript1
+ 1485  ./trapScript1
+ 1486  gedit trapScript1
+ 1487  ./trapScript1
+ 1488  gedit trapScript1
+ 1489  ./trapScript1
+ 1490  gedit trapScript1
+ 1491  ./trapScript1
+ 1492  python 3
+ 1493  python3
+ 1494  sudo shutdown now
+ 1495  cat /etc/apt/sources.list
+ 1496  sudo apt-get remove openssh-client
+ 1497  sudp apt-get update
+ 1498  sudo apt-get update
+ 1499  cat /var/lib/apt/lists/lock
+ 1500  sudo cat /var/lib/apt/lists/lock
+ 1501  sudo rm /var/lib/apt/lists/lock
+ 1502  sudo cat /var/lib/apt/lists/lock
+ 1503  sudo apt-get update
+ 1504  sudo apt-get install openssh-client
+ 1505  sudo apt-get install openssh-server
+ 1506  sudoedit /etc/apt/sources.list
+ 1507  exit
+ 1508  gedit copy
+ 1509  exit
+ 1510  sudoedit /etc/apt/sources.list
+ 1511  sudo apt-get update
+ 1512  sudo apt-get install vim
+ 1513  vim
+ 1514  vi
+ 1515  sudoedit /etc/apt/sources.list
+ 1516  sudo apt-get update
+ 1517  sudoedit /etc/apt/sources.list
+ 1518  sudo apt-get update
+ 1519  gedit copy
+ 1520  sudoedit /etc/apt/sources.list
+ 1521  sudo apt-get update
+ 1522  sudo apt-get upgrade
+ 1523  sudo apt-get update
+ 1524  sudoedit /etc/apt/sources.list
+ 1525  sudo apt-get update
+ 1526  sudoedit /etc/apt/sources.list
+ 1527  sudo apt-get update
+ 1528  sudoedit /etc/apt/sources.list
+ 1529  sudo apt-get update
+ 1530  sudo apt-get upgrade
+ 1531  history
+ 1532  history >> history.txt
+ 1533  cat history.txt 
+ 1534  sudo shutdown now
+ 1535  ls
+ 1536  cat backup
+ 1537  cat file5.txt 
+ 1538  main
+ 1539  cat main
+ 1540  cat pattern1
+ 1541  ./pattern1
+ 1542  cat pattern2
+ 1543  ./pattern2
+ 1544  cat pattern3
+ 1545  ./pattern3
+ 1546  ls
+ 1547  ls | grep pattern
+ 1548  ls
+ 1549  cat pattern4
+ 1550  ./pattern4
+ 1551  chmod +x pattern4
+ 1552  ./pattern4
+ 1553  gedit pattern4
+ 1554  ./pattern4
+ 1555  gedit pattern4
+ 1556  gedit pattern5
+ 1557  gedit pattern4
+ 1558  gedit pattern5
+ 1559  chmod +x pattern5
+ 1560  ./pattern5
+ 1561  gedit pattern5
+ 1562  ./pattern5
+ 1563  gedit pattern5
+ 1564  ./pattern5
+ 1565  gedit pattern5
+ 1566  ./pattern5
+ 1567  ls
+ 1568  cat run.txt
+ 1569  crontab -e
+ 1570  gedit script6
+ 1571  cat reverseString 
+ 1572  gedit script6
+ 1573  chmod +x script6
+ 1574  ./script6
+ 1575  clear
+ 1576  gedit script6
+ 1577  ./script6
+ 1578  clear
+ 1579  gedit script6
+ 1580  ./script6
+ 1581  gedit script6
+ 1582  ./script6
+ 1583  gedit script6
+ 1584  ./script6
+ 1585  gedit script6
+ 1586  ./script6
+ 1587  gedit script6
+ 1588  ./script6
+ 1589  gedit script6
+ 1590  ./script6
+ 1591  gedit script6
+ 1592  ./script6
+ 1593  gedit script6
+ 1594  ./script6
+ 1595  gedit script7
+ 1596  chmod +x script7
+ 1597  ./script7
+ 1598  gedit script7
+ 1599  ./script7
+ 1600  gedit script7
+ 1601  ./script7
+ 1602  gedit script7
+ 1603  ./script7
+ 1604  gedit script7
+ 1605  ./script7
+ 1606  ls
+ 1607  ls -l
+ 1608  ls -la
+ 1609  man ls
+ 1610  ls -t
+ 1611  cat lines
+ 1612  cat script3
+ 1613  gedit script4
+ 1614  chmod +x script4
+ 1615  ./script4
+ 1616  ls
+ 1617  gedit script4_1
+ 1618  chmod +x script4_1 
+ 1619  ./script4_1 
+ 1620  gedit script4_1
+ 1621  ./script4_1 
+ 1622  gedit script4_1
+ 1623  ./script4_1 
+ 1624  gedit script_even_odd
+ 1625  cat script5
+ 1626  cat script6
+ 1627  cat script7
+ 1628  ls
+ 1629  cat exampleScript 
+ 1630  cat typescript 
+ 1631  cat scrip4
+ 1632  ls
+ 1633  mv scrip4 script1
+ 1634  ls
+ 1635  cat paramHandle
+ 1636  gedit script_even_odd 
+ 1637  chmod +x script_even_odd 
+ 1638  ./script_even_odd 
+ 1639  ./script_even_odd 3 6
+ 1640  gedit script_even_odd 
+ 1641  ./script_even_odd 3 6
+ 1642  gedit script_even_odd 
+ 1643  ./script_even_odd 3 6 7 8
+ 1644  gedit script_even_odd 
+ 1645  ./script_even_odd 3 6 7 8
+ 1646  gedit script_even_odd 
+ 1647  ./script_even_odd 3 6 7 8
+ 1648  gedit script_even_odd 
+ 1649  ./script_even_odd 3 6 7 8
+ 1650  gedit script_even_odd 
+ 1651  ./script_even_odd 3 6 7 8
+ 1652  gedit script_even_odd 
+ 1653  ./script_even_odd 3 6 7 8
+ 1654  gedit script_even_odd 
+ 1655  ./script_even_odd 3 6 7 8
+ 1656  gedit script_even_odd 
+ 1657  ./script_even_odd 8  s
+ 1658  gedit script_even_odd_modify 
+ 1659  hmod +x script_even_odd_modify 
+ 1660  chmod +x script_even_odd_modify 
+ 1661  ./script_even_odd_modify 
+ 1662  ./script_even_odd_modify 2 22
+ 1663  gedit script_even_odd_modify 
+ 1664  ./script_even_odd_modify 2 22
+ 1665  ./script_even_odd_modify 2 22 1
+ 1666  ./script_even_odd_modify 2 22 2
+ 1667  gedit script_even_odd_modify 
+ 1668  ./script_even_odd_modify 2 22
+ 1669  ./script_even_odd_modify 2 22 1
+ 1670  ./script_even_odd_modify 2 22 2
+ 1671  ls
+ 1672  sudo shutdown now
+ 1673  ls
+ 1674  cat funcTry 
+ 1675  cat funcReturn 
+ 1676  cat fileScript 
+ 1677  cat BSD 
+ 1678  cat BSD | sed ''
+ 1679  sed 'p' BSD
+ 1680  sed BSD
+ 1681  sed '3,5p' BSD
+ 1682  sed -n '4,6p' BSD
+ 1683  sed -n '1,+4p' BSD
+ 1684  sed -n '4,-3p' BSD
+ 1685  sed -n '4,+3p' BSD
+ 1686  sed -n '1~2p' BSD
+ 1687  sed '' BSD
+ 1688  sed -n '1~3p' BSD
+ 1689  sed -n '1~1p' BSD
+ 1690  sed -n '1~4p' BSD
+ 1691  sed '1,2d' BSD
+ 1692  sed '3,+2d' BSD >> deleted.txt
+ 1693  cat deleted.txt 
+ 1694  sed -i '1~2d' deleted.txt 
+ 1695  cat deleted.txt 
+ 1696  sed -i.bak '1~2d' deleted.txt 
+ 1697  cat deleted.txt 
+ 1698  ls
+ 1699  cat deleted.txt.bak 
+ 1700  echo "this is the song that never ends yes, it goes on and on, my friend some people started singing it and then on and on"
+ 1701  echo "this is the song that never ends yes, it goes on and on, my friend some people started singing it and then on and on 
+ 1702  and then again on and on
+ 1703  again on and on " >> annoying.txt
+ 1704  cat annoying.txt 
+ 1705  sed 's/on/forward' annoying.txt 
+ 1706  sed 's/on/forward/' annoying.txt 
+ 1707  sed 's/on/forward/g' annoying.txt 
+ 1708  sed 's/on/forward/3' annoying.txt 
+ 1709  sed -n 's/on/forward/3p' annoying.txt 
+ 1710  sed -n 's/on/forward/3g' annoying.txt 
+ 1711  sed -n 's/on/forward/3gp' annoying.txt 
+ 1712  sed -n 's/on/forward/2gp' annoying.txt 
+ 1713  wc /etc/passwd | awk'{print $1}'
+ 1714  echo one two | awk'{print $1}'
+ 1715  echo "one two" | awk '{print $1}'
+ 1716  wc /etc/passwd | awk '{print $1}'
+ 1717  wc /etc/passwd
+ 1718  echo "one two" | awk '{print $0}'
+ 1719  #!/bin/bash
+ 1720  for((a=1;a<=127;a=a+1)); do   echo $a| awk '{printf("%d\t%x\t%o\t%3c\n",$1,$1,$1,$1)}'; done
+ 1721  for((a=1;a<=127;a=a+1)); do   echo $a| awk '{printf("%d\t%x\t%o\t%3c\n",$a,$a,$a,$a)}'; done
+ 1722  cat list.txt
+ 1723  cat >> list.txt
+ 1724  gedit my.txt
+ 1725  awk -F" " -f my.txt list.txt
+ 1726  gedit my.txt
+ 1727  awk -F" " -f my.txt list.txt
+ 1728  gedit my.txt
+ 1729  awk -F" " -f my.txt list.txt
+ 1730  gedit file.c
+ 1731  gedit makefile
+ 1732  chmod +x file.c makefile
+ 1733  ./makefile
+ 1734  gedit makefile
+ 1735  ./makefile
+ 1736  gedit makefile
+ 1737  mv makefile Makefile
+ 1738  cat file.c
+ 1739  make Makefile
+ 1740  gedit makefile
+ 1741  gedit Makefile
+ 1742  rm makefile
+ 1743  ls
+ 1744  make compile
+ 1745  gedit Makefile
+ 1746  make Makefile
+ 1747  make compile
+ 1748  make Makefile
+ 1749  gedit Makefile
+ 1750  make Makefile
+ 1751  make compile
+ 1752  ls
+ 1753  make run
+ 1754  gedit file.c
+ 1755  make Makefile
+ 1756  gedit Makefile 
+ 1757  make Makefile
+ 1758  make compile
+ 1759  make run
+ 1760  rcs
+ 1761  sudo apt install rcs
+ 1762  man rcs
+ 1763  info rcs
+ 1764  python3
+ 1765  pycharm
+ 1766  python3
+ 1767  which python3
+ 1768  which bash
+ 1769  mkdir pyfiles
+ 1770  cd pyfiles
+ 1771  gedit firstpython.py
+ 1772  chmod +x firstpython.py 
+ 1773  ./firstpython.py 
+ 1774  umask 0777
+ 1775  chmod +x firstpython.py 
+ 1776  python3 fir
+ 1777  python3 first
+ 1778  python3 firstpython.py
+ 1779  python3
+ 1780  cd ~
+ 1781  ls -l
+ 1782  umask 0644
+ 1783  touch umaskfile
+ 1784  ls -l
+ 1785  umask 0777
+ 1786  touch umaskfile2
+ 1787  ls -l
+ 1788  umask 0000
+ 1789  ls -l
+ 1790  touch umaskfile3
+ 1791  ls -l
+ 1792  umask 000
+ 1793  touch umaskfile4
+ 1794  ls -l
+ 1795  umask 0666
+ 1796  touch umaskfile5
+ 1797  ls -l
+ 1798  cd py
+ 1799  cd pyfiles
+ 1800  ls
+ 1801  python3
+ 1802  cd ~
+ 1803  rm u
+ 1804  rm umaskfile1
+ 1805  rm umaskfil
+ 1806  rm umaskfile2
+ 1807  rm umaskfile3
+ 1808  rm umaskfile4
+ 1809  rm umaskfile5
+ 1810  ls
+ 1811  ls -s
+ 1812  ls -h
+ 1813  ls -hs
+ 1814  python3
+ 1815  cd pythonfiles
+ 1816  cd py
+ 1817  umask 0022
+ 1818  ls
+ 1819  cd pyfiles/
+ 1820  gedit even_odd
+ 1821  mv even_odd even_odd.py
+ 1822  gedit even_odd.py 
+ 1823  python even_odd.py 
+ 1824  vim even_odd.py 
+ 1825  cd pyfiles/
+ 1826  python even_odd.py 
+ 1827  vim even_odd.py 
+ 1828  python3 even_odd.py 
+ 1829  python3 even_odd.py 0
+ 1830  vim even_odd_func.py
+ 1831  vim even_odd.py 
+ 1832  vim even_odd_func.py
+ 1833  python3
+ 1834  cd ..
+ 1835  cd --
+ 1836  sudo shutdown now
+ 1837  cd pyfiles/
+ 1838  ls
+ 1839  gedit avgofnums.py
+ 1840  python3 avgofnums.py 
+ 1841  gedit avgofnums.py
+ 1842  python3 avgofnums.py 
+ 1843  gedit avgofnums.py
+ 1844  python3 avgofnums.py 
+ 1845  gedit swap.py
+ 1846  python3 swap.py 
+ 1847  gedit swap.py
+ 1848  python3 swap.py 
+ 1849  gedit compute_n_nn_nnn.py
+ 1850  python3 compute_n_nn_nnn.py 
+ 1851  gedit pos_neg.py
+ 1852  python3 pos_neg.py 
+ 1853  gedit pos_neg.py
+ 1854  python3 pos_neg.py 
+ 1855  gedit reverseNum.py
+ 1856  python3 reverseNum.py 
+ 1857  gedit grade.py
+ 1858  python3 grade.py 
+ 1859  gedit grade.py
+ 1860  python3 grade.py 
+ 1861  gedit grade.py
+ 1862  python3 grade.py 
+ 1863  gedit grade.py
+ 1864  python3 grade.py 
+ 1865  gedit grade.py
+ 1866  python3 grade.py 
+ 1867  gedit rangediv.py
+ 1868  python3 rangediv.py
+ 1869  exit
+ 1870  cd pyfiles/
+ 1871  ls
+ 1872  cat firstpython.py 
+ 1873  gedit odd_range.py
+ 1874  python3 odd_range.py 
+ 1875  gedit odd_range.py
+ 1876  python3 odd_range.py 
+ 1877  gedit odd_range.py
+ 1878  python3 odd_range.py 
+ 1879  gedit sumofdigits.py
+ 1880  python3 odd_range.py 
+ 1881  python3 sumofdigits.py
+ 1882  gedit sumofdigits.py
+ 1883  python3 sumofdigits.py
+ 1884  gedit digcount.py
+ 1885  pyhton3 digcount.py
+ 1886  python3 digcount.py
+ 1887  gedit palindrome.py
+ 1888  python3 palindrome.py 
+ 1889  gedit palindrome.py
+ 1890  python3 palindrome.py 
+ 1891  python3 palindrome.py
+ 1892  gedit nodiv_2_3.py
+ 1893  python3 nodiv_2_3.py
+ 1894  gedit nodiv_2_3.py
+ 1895  python3 nodiv_2_3.py
+ 1896  gedit nodiv_2_3.py
+ 1897  python3 nodiv_2_3.py
+ 1898  gedit nodiv_2_3.py
+ 1899  python3 nodiv_2_3.py
+ 1900  gedit nodiv_2_3.py
+ 1901  python3 nodiv_2_3.py
+ 1902  gedit nodiv_2_3.py
+ 1903  python3 nodiv_2_3.py
+ 1904  gedit series.py
+ 1905  python3 series.py
+ 1906  gedit series.py
+ 1907  python3 series.py
+ 1908  gedit series.py
+ 1909  python3 series.py
+ 1910  gedit series.py
+ 1911  python3 series.py
+ 1912  gedit series.py
+ 1913  python3 series.py
+ 1914  gedit series.py
+ 1915  python3 series.py
+ 1916  gedit pattern1.py
+ 1917  python3 pattern1.py
+ 1918  gedit pattern1.py
+ 1919  python3 pattern1.py
+ 1920  gedit pattern1.py
+ 1921  python3 pattern1.py
+ 1922  gedit pattern1.py
+ 1923  python3 pattern1.py
+ 1924  gedit pattern2.py
+ 1925  python3 pattern2.py
+ 1926  exit
+ 1927  python3
+ 1928  cd pyfiles/
+ 1929  gedit removedup.py
+ 1930  python3 removedup.py
+ 1931  gedit newremovedup.py
+ 1932  python3 newremovedup.py
+ 1933  gedit newremovedup.py
+ 1934  python3 newremovedup.py
+ 1935  gedit newremovedup.py
+ 1936  python3 newremovedup.py
+ 1937  gedit newremovedup.py
+ 1938  python3 newremovedup.py
+ 1939  gedit removedup.py
+ 1940  gedit newremovedup.py
+ 1941  python3 newremovedup.py
+ 1942  gedit newremovedup.py
+ 1943  python3 newremovedup.py
+ 1944  gedit newremovedup.py
+ 1945  python3 newremovedup.py
+ 1946  gedit newremovedup.py
+ 1947  python3 newremovedup.py
+ 1948  gedit newremovedup.py
+ 1949  python3 newremovedup.py
+ 1950  gedit newremovedup.py
+ 1951  python3 newremovedup.py
+ 1952  gedit newremovedup.py
+ 1953  python3 newremovedup.py
+ 1954  gedit newremovedup.py
+ 1955  python3 newremovedup.py
+ 1956  gedit newremovedup.py
+ 1957  python3 newremovedup.py
+ 1958  gedit newremovedup.py
+ 1959  python3 newremovedup.py
+ 1960  gedit newremovedup.py
+ 1961  ls
+ 1962  cat pattern1.py 
+ 1963  gedit pattern1.py 
+ 1964  python3 pattern1.py 
+ 1965  gedit pattern2.py 
+ 1966  python3 pattern2.py 
+ 1967  python3 pattern3.py 
+ 1968  gedit pattern3.py 
+ 1969  python3 pattern3.py 
+ 1970  gedit pattern3.py 
+ 1971  python3 pattern3.py 
+ 1972  gedit pattern3.py 
+ 1973  python3 pattern3.py 
+ 1974  gedit pattern3.py 
+ 1975  python3 pattern3.py 
+ 1976  gedit pattern3.py 
+ 1977  gedit pattern4.py
+ 1978  python3 pattern4.py
+ 1979  gedit pattern3.py 
+ 1980  python3
+ 1981  gedit pattern3.py 
+ 1982  python3 pattern3.py 
+ 1983  gedit pattern3.py 
+ 1984  python3 pattern3.py 
+ 1985  gedit pattern3.py 
+ 1986  python3 pattern3.py 
+ 1987  gedit pattern3.py 
+ 1988  python3 pattern3.py 
+ 1989  gedit pattern3.py 
+ 1990  python3
+ 1991  exit
+ 1992  python
+ 1993  ls
+ 1994  cd pyfiles/
+ 1995  ls
+ 1996  gedit class1.py
+ 1997  python3 class1
+ 1998  python3 class1.py
+ 1999  python3
+ 2000  gedit class1.py
+ 2001  python3 class1.py
+ 2002  python3
+ 2003  gedit class1.py
+ 2004  python3 class1.py
+ 2005  gedit class1.py
+ 2006  python3 class1.py
+ 2007  gedit class2.py
+ 2008  python3 class2.py
+ 2009  gedit class2.py
+ 2010  python3 class2.py
+ 2011  gedit class2.py
+ 2012  python3 class2.py
+ 2013  gedit class2.py
+ 2014  python3 class2.py
+ 2015  gedit class2.py
+ 2016  python3 class2.py
+ 2017  gedit class2.py
+ 2018  python3 class2.py
+ 2019  gedit class2.py
+ 2020  python3 class2.py
+ 2021  gedit class2.py
+ 2022  python3 class2.py
+ 2023  gedit class2.py
+ 2024  python3 class2.py
+ 2025  gedit class2.py
+ 2026  python3 class2.py
+ 2027  gedit class2.py
+ 2028  python3 class2.py
+ 2029  gedit class2.py
+ 2030  python3 class2.py
+ 2031  gedit class2.py
+ 2032  python3 class2.py
+ 2033  gedit class2.py
+ 2034  python3 class2.py
+ 2035  gedit class2.py
+ 2036  python3 class2.py
+ 2037  gedit class2.py
+ 2038  python3 class2.py
+ 2039  gedit class2.py
+ 2040  cat firstpython.py 
+ 2041  python3 firstpython.py 
+ 2042  gedit class2.py
+ 2043  python3 class2.py
+ 2044  gedit class2.py
+ 2045  python3 class2.py
+ 2046  gedit class2.py
+ 2047  python3 class2.py
+ 2048  gedit class2.py
+ 2049  gedit class3.py
+ 2050  gedit class2.py
+ 2051  python3 class2.py
+ 2052  gedit class2.py
+ 2053  python3 class2.py
+ 2054  gedit class2.py
+ 2055  python3 class2.py
+ 2056  gedit class2.py
+ 2057  python3 class2.py
+ 2058  gedit class2.py
+ 2059  gedit class3.py
+ 2060  python3 class3.py
+ 2061  gedit class3.py
+ 2062  python3 class3.py
+ 2063  gedit class3.py
+ 2064  python3 class3.py
+ 2065  gedit class3.py
+ 2066  python3 class3.py
+ 2067  vim class3
+ 2068  ls
+ 2069  rm class3
+ 2070  vim class3.py 
+ 2071  vim inherit1.py
+ 2072  python3 inherit1.py
+ 2073  vim inherit1.py
+ 2074  python3 inherit1.py
+ 2075  vim inherit1.py
+ 2076  python3 inherit1.py
+ 2077  vim inherit1.py
+ 2078  python3 inherit1.py
+ 2079  vim inherit1.py
+ 2080  python3 inherit1.py
+ 2081  vim inherit1.py
+ 2082  python3 inherit1.py
+ 2083  vim inherit1.py
+ 2084  python3 inherit1.py
+ 2085  vim encap1.py
+ 2086  python3 encap1.py 
+ 2087  vim encap1.py
+ 2088  python3 encap1.py 
+ 2089  vim polymorph1.py
+ 2090  python3 polymorph1.py
+ 2091  vim polymorph1.py
+ 2092  python3 polymorph1.py
+ 2093  python3
+ 2094  vim emailSend.py
+ 2095  python3 emailSend.py
+ 2096  vim emailSend.py 
+ 2097  python3 emailSend.py
+ 2098  vim emailSend.py 
+ 2099  python3 emailSend.py
+ 2100  python3
+ 2101  pip install bs4
+ 2102  sudo apt install python-pip
+ 2103  sudo apt install python3-pip
+ 2104  pip install bs4
+ 2105  pip3 install bs4
+ 2106  pip install --upgrade pip
+ 2107  pip3 install --upgrade pip
+ 2108  pip install urllib.request
+ 2109  pip3 install urllib.request
+ 2110  vim webExtract.py
+ 2111  python3 webExtract.py
+ 2112  vim webExtract.py
+ 2113  python3 webExtract.py
+ 2114  vim webExtract.py
+ 2115  python3 webExtract.py
+ 2116  vim webExtract.py
+ 2117  python3 webExtract.py
+ 2118  vim webExtract.py
+ 2119  python3 webExtract.py
+ 2120  vim webExtract.py
+ 2121  python3 webExtract.py
+ 2122  vim webExtract.py
+ 2123  python3 webExtract.py
+ 2124  python3
+ 2125  sudo shutdown now
+ 2126  cd pyfiles/
+ 2127  ls
+ 2128  cat firstpython.py 
+ 2129  vim rectArea.py
+ 2130  python3 rectArea.py 
+ 2131  vim rectArea.py
+ 2132  python3 rectArea.py 
+ 2133  vim rectArea.py
+ 2134  python3 rectArea.py 
+ 2135  vim rectArea.py
+ 2136  python3 rectArea.py 
+ 2137  vim rectArea.py
+ 2138  python3 rectArea.py 
+ 2139  vim rectArea.py
+ 2140  python3
+ 2141  ls
+ 2142  cat pattern1.py 
+ 2143  cat pattern2.py 
+ 2144  cat pattern3.py 
+ 2145  cat pattern4.py 
+ 2146  python3 pattern1.py 
+ 2147  python3 pattern2.py 
+ 2148  python3 pattern3.py 
+ 2149  python3 pattern4.py 
+ 2150  vim pattern3.py 
+ 2151  python3 pattern3.py 
+ 2152  vim pattern3.py 
+ 2153  python3 pattern3.py 
+ 2154  vim pattern3.py 
+ 2155  python3 pattern3.py 
+ 2156  vim pattern3.py 
+ 2157  python3 pattern3.py 
+ 2158  python3 pattern4.py 
+ 2159  vim pattern5.py
+ 2160  cat pattern4.py 
+ 2161  vim pattern5.py
+ 2162  python3 pattern5.py 
+ 2163  vim pattern5.py
+ 2164  python3 pattern5.py 
+ 2165  vim pattern5.py
+ 2166  python3 pattern5.py 
+ 2167  vim pattern5.py
+ 2168  python3 pattern5.py 
+ 2169  vim pattern5.py
+ 2170  python3 pattern5.py 
+ 2171  vim pattern5.py
+ 2172  python3 pattern5.py 
+ 2173  vim pattern5.py
+ 2174  vim Calculator_GUI.py
+ 2175  python3 Calculator_GUI.py 
+ 2176  python3
+ 2177  pip install python3-tk
+ 2178  sudo apt-get install python-tk
+ 2179  python3
+ 2180  pip install python3-tk
+ 2181  python3 Calculator_GUI.py 
+ 2182  sudo apt-get install python3-tk
+ 2183  python3
+ 2184  vim Calculator_GUI.py
+ 2185  python3 Calculator_GUI.py 
+ 2186  vim Calculator_GUI.py
+ 2187  python3 Calculator_GUI.py 
+ 2188  vim Calculator_GUI.py
+ 2189  python3 Calculator_GUI.py 
+ 2190  vim Calculator_GUI.py
+ 2191  python3 Calculator_GUI.py 
+ 2192  vim Calculator_GUI.py
+ 2193  python3 Calculator_GUI.py 
+ 2194  vim Calculator_GUI.py
+ 2195  python3 Calculator_GUI.py 
+ 2196  vim Calculator_GUI.py
+ 2197  python3 Calculator_GUI.py 
+ 2198  vim Calculator_GUI.py
+ 2199  python3 Calculator_GUI.py 
+ 2200  vim Calculator_GUI.py
+ 2201  python3 Calculator_GUI.py 
+ 2202  vim Calculator_GUI.py
+ 2203  python3 Calculator_GUI.py 
+ 2204  ls
+ 2205  cat removedup.py 
+ 2206  cd ..
+ 2207  ls
+ 2208  cd pyfiles/
+ 2209  ls
+ 2210  ls -l
+ 2211  ls -d
+ 2212  ls -lt
+ 2213  cat even_odd_func.py 
+ 2214  rm even_odd_func.py 
+ 2215  chmod -x firstpython.py 
+ 2216  ls -l
+ 2217  ls -lt
+ 2218  cd ..
+ 2219  ls -lt
+ 2220  cd pyfiles/
+ 2221  ls
+ 2222  cat removedup.py 
+ 2223  python3 removedup.py 
+ 2224  vim largest_in_list.py
+ 2225  cat newremovedup.py 
+ 2226  python3 newremovedup.py 
+ 2227  rm newremovedup.py 
+ 2228  ls
+ 2229  cd..
+ 2230  cd -
+ 2231  tclsh
+ 2232  which tclsh
+ 2233  tclsh
+ 2234  wish
+ 2235  sl
+ 2236  ls
+ 2237  mkdir tclfiles
+ 2238  cd tclfiles/
+ 2239  tclsh
+ 2240  vim script1.tcl
+ 2241  tclsh script1.tcl 
+ 2242  vim script1.tcl
+ 2243  tclsh script1.tcl 
+ 2244  vim script1.tcl
+ 2245  tclsh script1.tcl 
+ 2246  vim script1.tcl
+ 2247  tclsh script1.tcl 
+ 2248  vim script1.tcl
+ 2249  tclsh script1.tcl 
+ 2250  vim script1.tcl
+ 2251  tclsh script1.tcl 
+ 2252  vim script1.tcl
+ 2253  tclsh
+ 2254  cd ..
+ 2255  cd pyfiles
+ 2256  python3 Calculator_GUI.py 
+ 2257  vim combination_3digits.py
+ 2258  python3 combination_3digits.py 
+ 2259  vim combination_3digits.py
+ 2260  python3 combination_3digits.py 
+ 2261  vim combination_3digits.py
+ 2262  python3 combination_3digits.py 
+ 2263  ls
+ 2264  cd pyfiles/
+ 2265  ls
+ 2266  cat compute_n_nn_nnn.py 
+ 2267  vim quo_rem.py
+ 2268  python3 quo_rem.py 
+ 2269  vim quo_rem.py
+ 2270  python3 quo_rem.py 
+ 2271  vim quo_rem.py
+ 2272  python3 quo_rem.py 
+ 2273  vim quo_rem.py
+ 2274  vim smallest_divisor.py
+ 2275  python3 smallest_divisor.py 
+ 2276  vim smallest_divisor.py
+ 2277  python3 smallest_divisor.py 
+ 2278  vim summation_pattern.py
+ 2279  python3 summation_pattern.py
+ 2280  vim identity_matrix.py
+ 2281  python identity_matrix.py
+ 2282  python3 identity_matrix.py
+ 2283  vim identity_matrix.py
+ 2284  python3 identity_matrix.py
+ 2285  vim inverted_star.py
+ 2286  python3 inverted_star.py 
+ 2287  vim inverted_star.py
+ 2288  python3 inverted_star.py 
+ 2289  vim inverted_star.py
+ 2290  python3 inverted_star.py 
+ 2291  vim pattern4.py 
+ 2292  python3 pattern4.py 
+ 2293  vim pattern4.py 
+ 2294  python3 pattern4.py 
+ 2295  vim print_prime.py
+ 2296  python3 print_prime.py
+ 2297  vim print_prime.py
+ 2298  python3 print_prime.py
+ 2299  vim print_prime.py
+ 2300  python3 print_prime.py
+ 2301  vim date_valid_increment.py
+ 2302  python3 date_valid_increment.py 
+ 2303  vim date_valid_increment.py
+ 2304  python3 date_valid_increment.py 
+ 2305  vim date_valid_increment.py
+ 2306  python3 date_valid_increment.py 
+ 2307  vim date_valid_increment.py
+ 2308  python3 date_valid_increment.py 
+ 2309  vim date_valid_increment.py
+ 2310  python3 date_valid_increment.py 
+ 2311  vim date_valid_increment.py
+ 2312  python3 date_valid_increment.py 
+ 2313  vim simple_interest.py
+ 2314  python simple_interest.py
+ 2315  vim simple_interest.py
+ 2316  python simple_interest.py
+ 2317  vim simple_interest.py
+ 2318  python simple_interest.py
+ 2319  vim simple_interest.py
+ 2320  python3 simple_interest.py
+ 2321  vim leap_year_check.py
+ 2322  python3 leap_year_check.py
+ 2323  vim height_cm_to_inch_feet.py
+ 2324  python height_cm_to_inch_feet.py
+ 2325  vim height_cm_to_inch_feet.py
+ 2326  python3 height_cm_to_inch_feet.py
+ 2327  vim height_cm_to_inch_feet.py
+ 2328  python3 height_cm_to_inch_feet.py
+ 2329  vim height_cm_to_inch_feet.py
+ 2330  python3 height_cm_to_inch_feet.py
+ 2331  vim temp_convertor.py
+ 2332  python3 temp_convertor.py 
+ 2333  vim prime_factor.py
+ 2334  python3 prime_factor.py
+ 2335  ls -l
+ 2336  ls
+ 2337  ls -lt
+ 2338  vim num_form.py
+ 2339  python3 num_form.py 
+ 2340  vim gravitational_force.py
+ 2341  python3 gravitational_force.py 
+ 2342  vim gravitational_force.py
+ 2343  python3 gravitational_force.py 
+ 2344  vim prime_check.py
+ 2345  python3 prime_check.py 
+ 2346  vim prime_check.py
+ 2347  python3 prime_check.py 
+ 2348  vim prime_check.py
+ 2349  python3 prime_check.py 
+ 2350  vim divisor_gen.py
+ 2351  python3 divisor_gen.py 
+ 2352  vim divisor_gen.py
+ 2353  python3 divisor_gen.py 
+ 2354  vim divisor_gen.py
+ 2355  python3 divisor_gen.py 
+ 2356  python3
+ 2357  vim divisor_gen.py
+ 2358  python3 divisor_gen.py 
+ 2359  vim table_print.py
+ 2360  python3 table_print.py
+ 2361  ls -lt
+ 2362  cd pyfiles/
+ 2363  ls -t
+ 2364  vim pascals_triangle.py
+ 2365  python3 pascals_triangle.py 
+ 2366  vim pascals_triangle.py
+ 2367  python3 pascals_triangle.py 
+ 2368  vim pascals_triangle.py
+ 2369  python3 pascals_triangle.py 
+ 2370  vim pascals_triangle.py
+ 2371  python3 pascals_triangle.py 
+ 2372  vim pascals_triangle.py
+ 2373  python3 pascals_triangle.py 
+ 2374  vim pascals_triangle.py
+ 2375  python3 pascals_triangle.py 
+ 2376  vim pascals_triangle.py
+ 2377  python3 pascals_triangle.py 
+ 2378  vim pascals_triangle.py
+ 2379  python3 pascals_triangle.py 
+ 2380  vim pascals_triangle.py
+ 2381  python3 pascals_triangle.py 
+ 2382  vim pascals_triangle.py
+ 2383  python3 pascals_triangle.py 
+ 2384  vim pascals_triangle.py
+ 2385  python3 pascals_triangle.py 
+ 2386  vim perfect_number.py
+ 2387  python3 perfect_number.py
+ 2388  vim perfect_number.py
+ 2389  python3 perfect_number.py
+ 2390  vim perfect_number.py
+ 2391  python3 perfect_number.py
+ 2392  vim lcm_2nums.py
+ 2393  python3 lcm_2nums.py
+ 2394  vim lcm_2nums.py
+ 2395  python3 lcm_2nums.py
+ 2396  vim gcd_2nums.py
+ 2397  python3 gcd_2nums.py
+ 2398  vim gcd_2nums.py
+ 2399  python3 gcd_2nums.py
+ 2400  vim polynomial_solution.py
+ 2401  python3 polynomial_solution.py
+ 2402  vim polynomial_solution.py
+ 2403  python3 polynomial_solution.py
+ 2404  vim polynomial_solution.py
+ 2405  python3 polynomial_solution.py
+ 2406  vim polynomial_solution.py
+ 2407  python3 polynomial_solution.py
+ 2408  vim polynomial_solution.py
+ 2409  python3 polynomial_solution.py
+ 2410  vim amicable_numbers.py
+ 2411  python3 amicable_numbers.py 
+ 2412  vim amicable_numbers.py
+ 2413  python3 amicable_numbers.py 
+ 2414  vim amicable_numbers.py
+ 2415  python3 amicable_numbers.py 
+ 2416  ls -lt
+ 2417  vim triangle_area.py
+ 2418  python3 triangle_area.py 
+ 2419  vim triangle_area.py
+ 2420  python3 triangle_area.py 
+ 2421  vim range_without_loops.py
+ 2422  python3 range_without_loops.py
+ 2423  vim range_without_loops.py
+ 2424  python3 range_without_loops.py
+ 2425  vim range_without_loops.py
+ 2426  python3 range_without_loops.py
+ 2427  vim range_without_loops.py
+ 2428  python3 range_without_loops.py
+ 2429  vim sine_series.py
+ 2430  python3 sine_series.py
+ 2431  vim sine_series.py
+ 2432  python3 sine_series.py
+ 2433  vim cosine_series.py
+ 2434  python3 cosine_series.py
+ 2435  history
+ 2436  history >> history.txt

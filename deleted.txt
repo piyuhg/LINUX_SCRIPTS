@@ -1,0 +1,5 @@
+1. Redistributions of source code must retain the above copyright
+   documentation and/or other materials provided with the distribution.
+                                                                        
+ARE DISCLAIMED.  IN NO EVENT SHALL THE REGENTS OR CONTRIBUTORS BE LIABLE
+HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT

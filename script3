@@ -1,0 +1,8 @@
+#!/bin/bash -x
+read -p "Enter number : " n
+if test $((n%2)) -eq 0
+then
+	echo "The number $n is even"
+else
+	echo "The number $n is odd"
+fi

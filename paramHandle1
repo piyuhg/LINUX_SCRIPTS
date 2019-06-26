@@ -1,0 +1,16 @@
+#!/bin/bash
+IFS=":"
+echo "Displaying all arguements that you gave as list \$@"
+echo "$@"
+echo
+echo "Displayig individual argument names separated by comma \$*"
+echo "$*"
+a=$#
+for((i=1;i<=$a;i++))
+do
+	# echo $@
+	eval echo \$$i
+	# shift
+done	
+
+

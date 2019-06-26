@@ -1,0 +1,10 @@
+#!/bin/bash
+read -p "Enter the number : " num
+rem=0
+sumd=0
+for((i=num;i>0;i=i/10))
+do
+	rem=$((i%10))
+	sumd=$((sumd + rem))
+done
+echo $sumd

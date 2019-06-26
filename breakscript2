@@ -1,0 +1,10 @@
+#!/bin/bash -x
+until [0] 
+do
+	read -p "enter number (-999 to exit): " n
+	[ $n -eq -999 ] && { echo "bye"; break; }
+	even=$(($n%2))
+	[ $even -eq 0 ] && echo "$n is even" || echo "$n is odd"
+done 
+	
+

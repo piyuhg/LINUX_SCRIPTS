@@ -1,0 +1,5 @@
+#!/bin/bash
+echo $SHLVL
+./s1
+echo $SHLVL
+./s2

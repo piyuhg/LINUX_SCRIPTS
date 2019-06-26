@@ -1,0 +1,8 @@
+#!/bin/bash -x
+today=$(date +"%a")
+case $today in
+	Mon) echo "do full backup";;
+	Tue|Wed|Thu|Fri) echo "do a partial backup";;
+	Sat|Sun) echo "do no backup";;
+	*);;
+esac

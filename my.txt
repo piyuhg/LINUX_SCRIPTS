@@ -1,0 +1,10 @@
+BEGIN {
+	printf("\t\t friends abstract \n\n")
+} $3 > "30000" {
+	count++ ; total+=$3
+	printf("%3d %-20s %-12s %d %d\n", count,$2,$3,$4,$5)
+}
+END {
+	printf("\n\t\t average income %6d\n", total/count)
+}
+
