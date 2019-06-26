@@ -1,0 +1,19 @@
+#!/bin/bash
+x=0
+trap 'increment' 2
+increment()
+{
+	echo "caught SIGINT"	
+	x=`expr $x + 500`
+	if [ $x -gt 2000 ]
+	then
+		echo "Okay I wil quit"
+		exit 1
+	fi
+}
+while :
+do
+	echo "x=$x"  
+	x=`expr $x + 1`
+	sleep 1
+done

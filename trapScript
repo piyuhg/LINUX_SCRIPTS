@@ -1,0 +1,16 @@
+#!/bin/bash
+times=0
+n=0
+# capture CTRL+C, CTRL+Z and quit signals using trap
+trap 'echo "disabled"' SIGINT SIGQUIT SIGTSTP
+# set an infinite while loop,user need to enter -999 to exit the loop
+while true
+do
+	read -p "Enter number (-999 to exit): " n
+	[ $n -eq -999 ] && { echo "Bye!"; break; } 
+	ans=$((n%2))
+	[ $ans -eq 0 ] && echo "$n is an even number." || echo "$n is an odd number."
+	times=$((++times))
+done
+echo "You played $times times."
+exit 0

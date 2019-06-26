@@ -1,0 +1,3 @@
+#!/bin/bash
+trap 'echo "CTRL+D is off"' SIGINT
+read -t 30 -p "no CTLR+C"

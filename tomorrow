@@ -1,0 +1,5 @@
+#!/bin/bash
+tomday(){
+date --date='1 day';
+}
+tomday

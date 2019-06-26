@@ -1,0 +1,14 @@
+Script started on Sat 05 Jan 2019 04:24:23 PM IST
+]0;piyuhg@ubuntu: ~[01;32mpiyuhg@ubuntu[00m:[01;34m~[00m$ mkdir piyushsg[K[Kg
+]0;piyuhg@ubuntu: ~[01;32mpiyuhg@ubuntu[00m:[01;34m~[00m$ r[Kcd pishg[K[K[Kyushg
+]0;piyuhg@ubuntu: ~/piyushg[01;32mpiyuhg@ubuntu[00m:[01;34m~/piyushg[00m$ cat abc.tct[K[K[K[K.txt
+cat: abc.txt: No such file or directory
+]0;piyuhg@ubuntu: ~/piyushg[01;32mpiyuhg@ubuntu[00m:[01;34m~/piyushg[00m$ cat abc.txt<abc.txt
+bash: abc.txt: No such file or directory
+]0;piyuhg@ubuntu: ~/piyushg[01;32mpiyuhg@ubuntu[00m:[01;34m~/piyushg[00m$ cat <abc.txt[1Pabc.txt.abc.txt[1Pabc.txt>abc.txt[C[C[C[C[C[C[C
+hellp   o world
+q
+^[  ]0;piyuhg@ubuntu: ~/piyushg[01;32mpiyuhg@ubuntu[00m:[01;34m~/piyushg[00m$ exit
+exit
+
+Script done on Sat 05 Jan 2019 04:25:35 PM IST
